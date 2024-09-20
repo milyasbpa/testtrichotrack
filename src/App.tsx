@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { routes } from "./core/utils/router/config";
 import PrivateRoute from "./core/utils/router/components/private/Private.route";
 import PublicRoute from "./core/utils/router/components/public/Public.route";
-import { useLocaleRouter } from "./core/utils/router/hooks";
+// import { useLocaleRouter } from "./core/utils/router/hooks";
 import { useContext } from "react";
 import { AppContext } from "./core/modules/app/context";
 import {
@@ -23,7 +23,7 @@ import {
 function App() {
   const { state } = useContext(AppContext);
   useAppGetDevice();
-  useLocaleRouter();
+  // useLocaleRouter();
 
   // NOTES: Optimize API in order to not fetch many times when route is changed
   useAppGetVersion();
