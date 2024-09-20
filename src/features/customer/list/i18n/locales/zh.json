@@ -1,0 +1,84 @@
+{
+  "header": {
+    "title": "客户名单"
+  },
+
+  "search_input": {
+    "placeholder": "在这里搜索名字..."
+  },
+  "sort": {
+    "items": [
+      {
+        "id": "Name Ascending",
+        "name": "名字升序"
+      },
+      {
+        "id": "Name Descending",
+        "name": "名字降序"
+      },
+      {
+        "id": "Registration Ascending",
+        "name": "注册时间升序"
+      },
+      {
+        "id": "Registration Descending",
+        "name": "注册时间降序"
+      }
+    ]
+  },
+  "not_found": {
+    "image_url": "/illustrations/search-not-found.illustration.svg",
+    "message": "未找到搜索内容，请重试。"
+  },
+  "phone_number_bottom_sheet": {
+    "title": "客户登录",
+    "description": "请输入您的电话号码",
+    "input": {
+      "label": "电话号码",
+      "placeholder": "在此处输入电话号码..."
+    },
+    "login": "登录"
+  },
+  "otp_bottom_sheet": {
+    "message": "验证码已发送",
+    "description": "请输入通过此电话号码短信收到的六位数的验证码。",
+    "error_message": "没收到？请求重新发送验证码。",
+    "resend_otp_text": "发送验证码"
+  },
+  "country_code_bottom_sheet": {
+    "title": "搜索国家代码",
+    "search_placeholder": "在此处输入国家名称或国家代码...",
+    "error_message": "未找到搜索内容，请重试。"
+  },
+  "actions": {
+    "back": "返回"
+  },
+  "error_password": {
+    "message": "电话号码错误",
+    "description": "请输入您注册时所登记的电话号码。"
+  },
+  "error_invalid_phone_number": {
+    "message": "电话号码错误",
+    "description": "请输入您注册时所登记的电话号码。"
+  },
+  "error_unregister_phone_number": {
+    "message": "电话号码未注册",
+    "description": "请输入您注册时所登记的电话号码。"
+  },
+  "error_account_has_been_deleted": {
+    "message": "此客户账号已经删除",
+    "description": "请使用新的电话号码重新注册账号。"
+  },
+  "error_too_frequent_otp_request": {
+    "message": "频繁请求验证码",
+    "description": "请一分钟后再登录。"
+  },
+  "error_internal_server_error": {
+    "message": "网路繁忙，验证码发送失败",
+    "description": "请稍候重新尝试。"
+  },
+  "error_wrong_otp": {
+    "message": "验证码错误",
+    "description": "请输入通过手机短信收到的验证码。"
+  }
+}

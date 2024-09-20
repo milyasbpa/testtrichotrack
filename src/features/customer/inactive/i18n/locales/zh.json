@@ -1,0 +1,76 @@
+{
+  "header": {
+    "title": "非活跃客户"
+  },
+  "visit_number_filter": {
+    "label": "访问次数"
+  },
+
+  "tab": {
+    "items": [
+      {
+        "id": "statistics",
+        "name": "统计数据"
+      },
+      {
+        "id": "insight",
+        "name": "深入分析"
+      }
+    ]
+  },
+
+  "min_age_filter": {
+    "label": "最小年龄",
+    "errors": {
+      "greater_than_max_age": "必须小于最大年龄"
+    }
+  },
+  "max_age_filter": {
+    "label": "最大年龄",
+    "errors": {
+      "less_than_min_age": "必须大于最小年龄"
+    }
+  },
+  "race_filter": {
+    "label": "种族"
+  },
+  "resolution_filter": {
+    "label": "分辨率"
+  },
+  "age_bin_plot": {
+    "title": "年龄分布柱状图"
+  },
+
+  "gender_card": {
+    "title": "性别分布"
+  },
+  "race_card": {
+    "title": "种族分布"
+  },
+  "age_distribution_card": {
+    "title": "年龄分布"
+  },
+  "start_age_filter": {
+    "label": "起始年龄"
+  },
+  "end_age_filter": {
+    "label": "结束年龄"
+  },
+  "age_resolution_filter": {
+    "label": "分辨率"
+  },
+  "gender_filter": {
+    "label": "性别"
+  },
+  "empty_bar_chart": {
+    "message": "这个图是空的",
+    "description": "这表示没有数据点可以显示。"
+  },
+  "empty_pie_chart": {
+    "message": "这个图是空的",
+    "description": "这表示没有数据点可以显示。"
+  },
+  "actions": {
+    "back": "返回"
+  }
+}

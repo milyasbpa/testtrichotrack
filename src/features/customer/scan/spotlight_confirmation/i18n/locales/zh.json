@@ -1,0 +1,26 @@
+{
+  "confirmation": {
+    "message": "常规区域的扫描已完成。还有需要关注的区域要扫描吗？",
+    "actions": {
+      "secondary": "否",
+      "primary": "是"
+    },
+    "fun_fact": {
+      "message": "请稍候",
+      "description": "正在进行分析中 ...",
+      "item": {
+        "title": "趣味小知识"
+      }
+    },
+    "errors": {
+      "maximum_limit_reached": {
+        "message": "已达到最大限额",
+        "description": "已经达到最大限额。请联系管理员升级您的配套。"
+      },
+      "insufficient_credit_balance": {
+        "message": "余额不足",
+        "description": "您的信用余额不足，请联系管理员进行充值。"
+      }
+    }
+  }
+}

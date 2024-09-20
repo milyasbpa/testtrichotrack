@@ -1,0 +1,67 @@
+{
+  "current_tier": {
+    "label": "当前合约"
+  },
+  "expired_date": {
+    "label": "到期日期"
+  },
+  "remaining_credit": {
+    "label": "信用余额"
+  },
+  "day_remaining": {
+    "label": {
+      "singular": "剩余{{day}}天",
+      "plural": "剩余{{day}}天"
+    }
+  },
+
+  "topup": {
+    "cta": {
+      "primary": {
+        "children": "续费续约"
+      }
+    }
+  },
+  "member": {
+    "outlet": {
+      "label": {
+        "singular": "分店",
+        "plural": "分店"
+      },
+      "icon": "Outlets"
+    },
+    "staff": {
+      "label": {
+        "singular": "员工",
+        "plural": "员工"
+      },
+      "icon": "StaffBilling"
+    },
+    "customers": {
+      "label": {
+        "singular": "客户",
+        "plural": "客户"
+      },
+      "icon": "CustomerBilling"
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "name": "付款记录",
+        "icon": "PaymentHistory",
+        "link": "/{{locale}}/company/payment-history"
+      },
+      {
+        "name": "通知设置",
+        "icon": "NotificationPreferences",
+        "link": "/{{locale}}/company/notification-preferences"
+      }
+    ]
+  },
+  "cta": {
+    "primary": {
+      "children": "返回"
+    }
+  }
+}

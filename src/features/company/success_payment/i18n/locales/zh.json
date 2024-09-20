@@ -1,0 +1,9 @@
+{
+  "src": "/illustrations/success-payment.illustration.svg",
+  "message": "付款成功！感谢您选择我们的服务。您可以在付款记录中下载您的收据。",
+  "cta": {
+    "primary": {
+      "children": "确定"
+    }
+  }
+}

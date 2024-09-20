@@ -1,0 +1,202 @@
+{
+  "step": {
+    "items": [
+      {
+        "id": "1",
+        "name": "Required<br/>Info"
+      },
+      {
+        "id": "2",
+        "name": "Other<br/>Info"
+      },
+      {
+        "id": "3",
+        "name": "Questionnaire<br/>(Optional)"
+      },
+      {
+        "id": "4",
+        "name": "Customer<br/>Agreement"
+      }
+    ]
+  },
+  "required": {
+    "title": "Complete your profile informations",
+    "avatar_profile": {
+      "take": "take",
+      "image": {
+        "default_url": "/images/sample-photo.image.svg",
+        "banner_url": "/images/retake-banner.image.svg"
+      }
+    },
+    "fullname_input": {
+      "label": "Fullname*",
+      "placeholder": "Type fullname here...",
+      "error_message": "Please enter valid full name!"
+    },
+    "date_of_birth_dropdown": {
+      "label": "Date of Birth*",
+      "date_placeholder": "Pick Date",
+      "month_placeholder": "Pick Month",
+      "year_placeholder": "Pick Year"
+    },
+    "race_dropdown": {
+      "label": "Race*",
+      "placeholder": "Select race"
+    },
+    "gender_input": {
+      "label": "Gender*"
+    },
+    "phonenumber": {
+      "label": "Phone Number*",
+      "placeholder": "Type phone number here...",
+      "max_length": 16,
+      "errors": [
+        {
+          "id": "INVALID_PHONE_NUMBER",
+          "name": "Please type valid phone number!"
+        }
+      ],
+      "country_code": {
+        "title": "Search Country Code",
+        "placeholder": "Type country name here...",
+        "errors": [
+          {
+            "id": "COUNTRY_NOT_FOUND",
+            "name": "Search not found, please try again."
+          }
+        ]
+      }
+    },
+    "otp_bottom_sheet": {
+      "message": "OTP has been sent",
+      "description": "Please key in the 6-digit OTP that we sent via SMS to this phone number.",
+      "error_message": "Didn't receive it? Request new OTP code.",
+      "send_otp": "Send OTP"
+    },
+    "error": {
+      "duplicated_phone_number": "Phone number is already registered",
+      "bad_phone_number_request": "Invalid phone number!",
+      "internal_server_error": "Failed to send OTP due to busy network"
+    },
+    "error_suggestion": {
+      "duplicated_phone_number": "Please type another phone number.",
+      "bad_phone_number_request": "Please type valid phone number!",
+      "internal_server_error": "Please wait a while and try again."
+    },
+    "actions": {
+      "back": "Back",
+      "send_otp": "Send OTP",
+      "next": "Next"
+    }
+  },
+
+  "profile_picture": {
+    "message": "Please kindly point your full face to the round shaped area",
+    "description": "Ensure face is visible with proper lighting.",
+    "back": "BACK",
+    "take_a_picture": "Take A Picture"
+  },
+  "profile_picture_preview": {
+    "message": "Your picture has been taken. Do you like the picture?",
+    "description": "If you want to retake just click the retake button.",
+    "retake": "Retake",
+    "yes": "Yes"
+  },
+  "additional": {
+    "title": "Other Information",
+    "email_address": {
+      "label": "Email Address",
+      "placeholder": "e.g alvisual@mail.com",
+      "error_message": "Please enter valid email address!"
+    },
+    "profession": {
+      "label": "Profession",
+      "placeholder": "Type profession here..."
+    },
+    "citizenship": {
+      "label": "Citizenship",
+      "placeholder": "Type citizenship"
+    },
+    "marital_status": {
+      "label": "Marital Status"
+    },
+    "address": {
+      "label": "Address",
+      "placeholder": "e.g Ms. Tan Bee Soo 16 Sandilands Road Singapore"
+    },
+    "actions": {
+      "back": "Back",
+      "next": "Next"
+    }
+  },
+
+  "questionnaire": {
+    "title": "Questionnaire",
+    "navigation": {
+      "message": "{{startQuestionIndex}} to {{endQuestionIndex}} of {{totalQuestion}}",
+      "description": "Down arrow to continue to the next question"
+    },
+    "single_question": {
+      "others_placeholder": "Type your details here..."
+    },
+    "multiple_question": {
+      "others_placeholder": "Type your details here..."
+    },
+    "open_question": {
+      "placeholder": "Type your answer here..."
+    },
+    "actions": {
+      "back": "Back",
+      "next": "next"
+    }
+  },
+
+  "agreement": {
+    "title": "Customer Agreement",
+
+    "compulsory": {
+      "required": "(Required):",
+      "statement": "I hereby declare that",
+      "1": "I have fully disclosed all relevant information pertaining to my treatment.",
+      "2": "To the best of my knowledge, the information I have provided is accurate. I acknowledge that I will not hold the Company liable for any adverse effects arising from treatments or products used during the treatment.",
+      "3": "I consent to receive treatment from the Company.",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "optional": {
+      "optional": "(Optional)",
+      "statement": "I consent to receive informational and promotional marketing communications from the Company.",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "actions": {
+      "back": "Back",
+      "save": "Save"
+    }
+  },
+
+  "registration_success": {
+    "message": "Account successfully created",
+    "description": "All the required information has been collected."
+  },
+  "insufficient_credit_balance": {
+    "src": "/illustrations/insufficient-credit-balance.illustration.svg",
+    "message": "Insufficient credit balance!",
+    "description": "Your credit balance is not enough. Please contact admin to top up.",
+    "cta": {
+      "primary": {
+        "children": "OK"
+      }
+    }
+  },
+  "maximum_limit_reached": {
+    "src": "/illustrations/maximum-limit-reached.illustration.svg",
+    "message": "The maximum limit reached!",
+    "description": "You have reached the maximum limit. Please contact admin to upgrade your plan.",
+    "cta": {
+      "primary": {
+        "children": "OK"
+      }
+    }
+  }
+}

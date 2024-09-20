@@ -1,0 +1,47 @@
+{
+  "staff_login": {
+    "form": {
+      "name": "Staff Login",
+      "description": "Let’s login to begin",
+      "phonenumber": {
+        "label": "Phone Number",
+        "placeholder": "Type registered phone number here...",
+        "max_length": 16,
+        "errors": [
+          {
+            "id": "INVALID_PHONE_NUMBER",
+            "name": "Please type valid phone number!"
+          }
+        ],
+        "country_code": {
+          "title": "Search Country Code",
+          "placeholder": "Type country name here...",
+          "errors": [
+            {
+              "id": "COUNTRY_NOT_FOUND",
+              "name": "Search not found, please try again."
+            }
+          ]
+        }
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Type your password here...",
+        "max_length": 255
+      },
+      "login": "LOGIN",
+      "error_password": {
+        "message": "You entered a wrong password!",
+        "description": "Please try again."
+      },
+      "error_subscription_expired": {
+        "message": "Subscription expired",
+        "description": "Your subscription has expired. Please contact admin to renew."
+      },
+      "error_credit_points_exhausted": {
+        "message": "Credit points exhausted",
+        "description": "Your credit balance has exhausted. Please contact admin to top up."
+      }
+    }
+  }
+}

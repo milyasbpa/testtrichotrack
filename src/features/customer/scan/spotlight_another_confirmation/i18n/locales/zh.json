@@ -1,0 +1,16 @@
+{
+  "confirmation": {
+    "message": "扫描图片已保存。还有其他的关注区域需要扫描吗？",
+    "actions": {
+      "primary": "是",
+      "secondary": "否"
+    },
+    "fun_fact": {
+      "message": "请稍候",
+      "description": "正在进行分析中 ...",
+      "item": {
+        "title": "趣味小知识"
+      }
+    }
+  }
+}

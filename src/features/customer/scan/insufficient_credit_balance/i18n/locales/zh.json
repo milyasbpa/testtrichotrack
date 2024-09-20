@@ -1,0 +1,10 @@
+{
+  "src": "/illustrations/insufficient-credit-balance.illustration.svg",
+  "message": "余额不足！",
+  "description": "您的信用余额不足，请联系管理员进行充值。",
+  "cta": {
+    "primary": {
+      "children": "确定"
+    }
+  }
+}

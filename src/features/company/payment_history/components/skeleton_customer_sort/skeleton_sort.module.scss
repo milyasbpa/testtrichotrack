@@ -1,0 +1,9 @@
+.skeleton-sort {
+  &__container {
+    display: grid;
+    row-gap: 24px;
+    column-gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+}

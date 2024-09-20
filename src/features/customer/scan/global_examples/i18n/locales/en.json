@@ -1,0 +1,7 @@
+{
+  "title": "Scan Guideline",
+  "actions": {
+    "secondary": "Skip Global Scan",
+    "primary": "Start"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "header": {
+    "title": "商业分析"
+  },
+  "customer_visit_distribution_card": {
+    "title": "客户来访分布"
+  },
+  "customer_registration_card": {
+    "title": "客户注册统计"
+  },
+  "customer_visit_card": {
+    "title": "客户来访统计"
+  },
+  "report_request_card": {
+    "title": "报告下载统计"
+  },
+  "date_filter": {
+    "label": "日期",
+    "start_date_input": {
+      "label": "开始"
+    },
+    "end_date_input": {
+      "label": "结束"
+    },
+    "error": {
+      "invalid_date": "请输入正确日期",
+      "start_date_must_be_smaller_than_end_date": "起始日期必须早于结束日期",
+      "end_date_must_be_greater_than_start_date": "结束日期必须晚于起始日期",
+      "resolution": "所选范围不能超过30个分辨率",
+      "future_selection": "结束日期必须在今天之前"
+    },
+    "actions": {
+      "apply": "确定",
+      "reset": "重置"
+    }
+  },
+  "resolution_filter": {
+    "label": "分辨率"
+  },
+  "outlet_autocomplete": {
+    "label": "分店",
+    "not_found": "未找到任何结果"
+  },
+  "empty_bar_chart": {
+    "message": "这个图是空的",
+    "description": "这表示没有数据点可以显示。"
+  },
+  "empty_pie_chart": {
+    "message": "这个图是空的",
+    "description": "这表示没有数据点可以显示。"
+  },
+  "actions": {
+    "back": "返回"
+  }
+}

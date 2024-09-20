@@ -1,0 +1,23 @@
+{
+  "image": "",
+  "counter_modal": {
+    "is_open": false
+  },
+  "active_region": 0,
+  "data": [
+    {
+      "order": 1,
+      "id": 17,
+      "icon": "/icons/face_area/face-area-17.icon.svg",
+      "image": "",
+      "region": "Frontal Overhead"
+    },
+    {
+      "order": 2,
+      "id": 18,
+      "icon": "/icons/face_area/face-area-18.icon.svg",
+      "image": "",
+      "region": "Rear Overhead"
+    }
+  ]
+}

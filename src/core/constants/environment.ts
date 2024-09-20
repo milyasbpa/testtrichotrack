@@ -1,0 +1,26 @@
+export const ENVIRONMENT = {
+  APP_NAME: import.meta.env.VITE_APP_NAME ?? "",
+  ENVIRONMENT: import.meta.env.VITE_ENVIRONMENT ?? "",
+  APP_URL: import.meta.env.VITE_APP_URL ?? "",
+  API_URL: import.meta.env.VITE_API_URL ?? "",
+  API_PROXY_URL: import.meta.env.VITE_API_PROXY_URL ?? "",
+  CUSTOMER_RECORD_IMAGE_SERVER_URL:
+    import.meta.env.VITE_CUSTOMER_RECORD_IMAGE_SERVER_URL ?? "",
+  SCAN_EXAMPLES_IMAGE_URL: import.meta.env.VITE_SCAN_EXAMPLES_IMAGE_URL ?? "",
+  IMAGE_SERVER_URL: import.meta.env.VITE_IMAGE_SERVER_URL ?? "",
+  REWRITE_API_URL: import.meta.env.VITE_REWRITE_API_URL ?? "",
+  MOCK_API: import.meta.env.VITE_MOCK_API ?? "",
+  DEVICE_API_URL: import.meta.env.VITE_DEVICE_API_URL ?? "",
+  MOCK_PWA: import.meta.env.VITE_MOCK_PWA ?? "",
+  WIFI_MICROSCOPE_URL: import.meta.env.VITE_WIFI_MICROSCOPE_URL ?? "",
+  DRIVER_API_URL: import.meta.env.VITE_DRIVER_API_URL ?? "",
+  MOCK_WIFI_MICROSCOPE: import.meta.env.VITE_MOCK_WIFI_MICROSCOPE ?? "",
+  MOCK_USB_MICROSCOPE: import.meta.env.VITE_MOCK_USB_MICROSCOPE ?? "",
+  MOCK_MICROSCOPE_CAMERA: import.meta.env.VITE_MOCK_MICROSCOPE_CAMERA ?? "",
+  MOCK_DINO_LITE_MISCROSCOPE:
+    import.meta.env.VITE_MOCK_DINO_LITE_MISCROSCOPE ?? "",
+  MOCK_GLOBAL_CAMERA: import.meta.env.VITE_MOCK_GLOBAL_CAMERA ?? "",
+  VISION_API_VERSION: import.meta.env.VITE_VISION_API_VERSION ?? "",
+  APP_BUILD_VERSION: import.meta.env.VITE_APP_BUILD_VERSION ?? "",
+  APP_VERSON: import.meta.env.VITE_APP_VERSION ?? "",
+};

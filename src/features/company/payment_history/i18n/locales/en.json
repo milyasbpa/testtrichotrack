@@ -1,0 +1,52 @@
+{
+  "title": "Payment History",
+  "sort": {
+    "label": "Sort by date time",
+    "items": [
+      {
+        "id": "descending",
+        "name": "Descending"
+      },
+      {
+        "id": "ascending",
+        "name": "Ascending"
+      }
+    ]
+  },
+  "filter": {
+    "period": {
+      "label": "Period",
+      "errors": {
+        "invalid_month": {
+          "code": "INVALID_MONTH",
+          "message": "Invalid Input, Please select a different month within the allowed range."
+        }
+      },
+      "cta": {
+        "primary": {
+          "children": "Apply"
+        },
+        "secondary": {
+          "children": "Reset"
+        }
+      }
+    }
+  },
+  "items": {
+    "cta": {
+      "primary": {
+        "children": "Download Receipt"
+      }
+    }
+  },
+  "errors": {
+    "no_payment_record": {
+      "message": "Search not found, please try again"
+    }
+  },
+  "cta": {
+    "primary": {
+      "children": "Back"
+    }
+  }
+}

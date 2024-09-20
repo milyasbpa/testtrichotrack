@@ -1,0 +1,9 @@
+{
+  "message": "拍摄一些扫描头皮的照片",
+  "image_url": "/illustrations/scalp-scan.illustration.svg",
+  "description": "为了分析您的头皮状况并评估适合您的治疗方法，我们将拍摄一些扫描您头皮的照片。",
+  "actions": {
+    "secondary": "返回",
+    "primary": "继续"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "message": "抱歉，出现错误。",
+  "description": "请尝试重新开始一次新的扫描。",
+  "image_url": "/illustrations/scan-error.illustration.svg",
+  "actions": {
+    "primary": "重新开始"
+  }
+}

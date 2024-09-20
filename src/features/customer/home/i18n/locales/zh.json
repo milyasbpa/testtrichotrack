@@ -1,0 +1,53 @@
+{
+  "greeting": "欢迎回来，",
+  "logout": "退出",
+  "menu": {
+    "items": [
+      {
+        "id": "scan_record",
+        "name": "扫描记录",
+        "image_url": "FindInPage",
+        "description": "",
+        "link": "/:locale/customer/record",
+        "platforms": ["pwa", "browser"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "scan",
+        "name": "新扫描",
+        "image_url": "CameraAlt",
+        "description": "",
+        "link": "/:locale/customer/scan/global-area-instruction",
+        "platforms": ["pwa"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "live_cam",
+        "name": "实时扫描",
+        "image_url": "Camera",
+        "description": "",
+        "link": "/:locale/customer/live-camera",
+        "platforms": ["pwa"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "edit_profile",
+        "name": "更新个人资料",
+        "image_url": "Person",
+        "description": "",
+        "link": "/:locale/customer/my-profile",
+        "platforms": ["pwa", "browser"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "edit_questionnaire",
+        "name": "更新问卷答案",
+        "image_url": "Ballot",
+        "description": "",
+        "link": "/:locale/customer/my-questionnaire",
+        "platforms": ["pwa", "browser"],
+        "roles": ["CUSTOMER"]
+      }
+    ]
+  }
+}

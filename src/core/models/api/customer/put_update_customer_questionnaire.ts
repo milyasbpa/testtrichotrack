@@ -1,0 +1,27 @@
+export interface PutUpdateCustomerQuestionnaireRequestInterface {
+  id: number;
+
+  version_id?: number;
+  answers?: {
+    "1"?: string[];
+    "2"?: string[];
+    "3"?: string[];
+    "4"?: string[];
+    "5"?: string[];
+    "6"?: string[];
+    "7"?: string[];
+    "8"?: string[];
+    "9"?: string[];
+    "10"?: string[];
+    "11"?: string[];
+    "12"?: string[];
+    "13"?: string[];
+  };
+}
+export interface PutUpdateCustomerQuestionnaire200SuccessResponseInterface {
+  detail: string;
+}
+
+export interface PutUpdateCustomerQuestionnaire401SuccessResponseInterface {
+  detail: string;
+}

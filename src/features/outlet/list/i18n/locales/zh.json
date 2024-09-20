@@ -1,0 +1,48 @@
+{
+  "header": {
+    "title": "分店名单"
+  },
+  "search_input": {
+    "label": "搜索",
+    "placeholder": "在这里搜索名字..."
+  },
+  "sort": {
+    "items": [
+      {
+        "id": "Name Ascending",
+        "name": "名字升序"
+      },
+      {
+        "id": "Name Descending",
+        "name": "名字降序"
+      },
+      {
+        "id": "Registration Ascending",
+        "name": "注册时间升序"
+      },
+      {
+        "id": "Registration Descending",
+        "name": "注册时间降序"
+      }
+    ]
+  },
+  "item_card": {
+    "registration_time": "注册时间：<br/>{{registration_time}}",
+    "delete": "删除",
+    "edit": "编辑"
+  },
+  "search_not_found_section": {
+    "message": "未找到搜索内容，请重试"
+  },
+  "outlet_delete_dialog": {
+    "message": "您确定要删除",
+    "description": "请仔细考虑后确认删除。",
+    "image_url": "/illustrations/delete-staff.illustration.svg",
+    "cancel": "取消",
+    "delete": "删除"
+  },
+  "error_non_empty_outlet": {
+    "message": "无法删除还有员工的分店",
+    "description": "如果您想要删除这家分店，请把所属的员工删除或者转去其他分店。"
+  }
+}

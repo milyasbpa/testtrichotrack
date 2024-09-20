@@ -1,0 +1,13 @@
+{
+  "step_tab": {
+    "step": "Step"
+  },
+  "schedule_card": {
+    "rating": "Rating",
+    "title": "Recommended Schedule",
+    "template": "Your {{category}} Rating is {{rating}}, indicating {{X}}. Therefore, you're recommended to receive the {{treatment}} for {{times}}.",
+    "latest_template": "Your latest {{category}} Rating is {{rating}}, indicating {{X}}. Therefore, you're recommended to receive the {{treatment}} for {{times}}.",
+    "good_indicator_template": "your {{target}} is {{level}}",
+    "bad_indicator_template": "you're suffering from {{level}} {{issue}} problem"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "error": {
+    "message": "Please Retake",
+    "actions": {
+      "primary": "Next"
+    },
+    "card": {
+      "actions": {
+        "primary": "Retake"
+      }
+    },
+    "fun_fact": {
+      "message": "Please Wait",
+      "description": "Analyzing Scan",
+      "item": {
+        "title": "Fun Facts"
+      }
+    }
+  }
+}

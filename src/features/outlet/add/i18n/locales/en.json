@@ -1,0 +1,96 @@
+{
+  "confirmation": {
+    "message": "Are you sure to add this new outlet?",
+    "description": "Please ensure the particulars are correct before submission.",
+    "image_url": "/illustrations/delete-staff.illustration.svg",
+    "cta": {
+      "primary": {
+        "children": "Submit"
+      },
+      "secondary": {
+        "children": "Check Again"
+      }
+    }
+  },
+  "crop_outlet_photo_modal": {
+    "message": "Crop Outlet Photo",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "header": {
+    "title": "Add Outlet"
+  },
+  "outlet_address_input": {
+    "label": "Outlet Address",
+    "placeholder": "Type outlet address here...",
+    "start_helper_text": "Optional"
+  },
+  "outlet_name_input": {
+    "label": "Name*",
+    "placeholder": "Type outlet name here...",
+    "error_message": "Please enter valid outlet name!"
+  },
+  "phonenumber": {
+    "label": "Phone Number*",
+    "placeholder": "Type phone number here...",
+    "max_length": 16,
+    "errors": [
+      {
+        "id": "INVALID_PHONE_NUMBER",
+        "name": "Please type valid phone number!"
+      }
+    ],
+    "country_code": {
+      "title": "Search Country Code",
+      "placeholder": "Type country name here...",
+      "errors": [
+        {
+          "id": "COUNTRY_NOT_FOUND",
+          "name": "Search not found, please try again."
+        }
+      ]
+    }
+  },
+
+  "upload_outlet_photo": {
+    "label": "Outlet Photo",
+    "browse": "Browse Image",
+    "optional": "Optional"
+  },
+  "actions": {
+    "back": "Back",
+    "submit": "Submit"
+  },
+  "registration_success": {
+    "message": "Outlet successfully added!",
+    "description": "Check outlet list to view."
+  },
+  "error_name_already_registered": {
+    "message": "Name is Already Registered",
+    "description": "Please type another name."
+  },
+  "error_invalid_name": {
+    "message": "Invalid Name",
+    "description": "Please type valid name!"
+  },
+  "error_duplicated_phone_number": {
+    "message": "Phone number is already registered",
+    "description": "Please type another phone number."
+  },
+  "error_invalid_phone_number": {
+    "message": "Invalid phone number",
+    "description": "Please type valid phone number!"
+  },
+  "error_internal_server_error": {
+    "message": "Failed to send OTP due to busy network",
+    "description": "Please wait a while and try again."
+  },
+  "error_maximum_limit_reached": {
+    "message": "The maximum limit reached",
+    "description": "You have reached the maximum limit. Please contact admin to upgrade your plan."
+  },
+  "error_insufficient_credit_balance": {
+    "message": "Insufficient credit balance",
+    "description": "Your credit balance is not enough. Please contact admin to top up."
+  }
+}

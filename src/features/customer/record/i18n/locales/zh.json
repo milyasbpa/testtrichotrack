@@ -1,0 +1,36 @@
+{
+  "scan_records": "扫描记录",
+  "diagnosis": "诊断",
+  "recommendation": "推荐",
+  "type": {
+    "items": [
+      {
+        "id": "Global",
+        "name": "头部全貌"
+      },
+      {
+        "id": "Routine",
+        "name": "Routine"
+      },
+      {
+        "id": "Spotlight",
+        "name": "关注区域"
+      }
+    ]
+  },
+  "no_spotlight": {
+    "message": "没有要关注区域的扫描记录",
+    "description": "这次没有需要重点关注的区域。"
+  },
+  "no_global": {
+    "message": "没有头部全貌的记录",
+    "description": "这次没有对头部全貌的扫描图像。"
+  },
+  "actions": {
+    "compare": "图片比较"
+  },
+  "comparison_alert": {
+    "message": "选择要比较的图片",
+    "description": "选择 2 到 4 张图片，然后单击比较按钮。"
+  }
+}

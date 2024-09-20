@@ -1,0 +1,102 @@
+{
+  "confirmation_dialog": {
+    "message": "您确定要更新这些资料吗？",
+    "description": "请在提交之前确认资料正确。",
+    "check_again": "重新检查",
+    "submit": "提交",
+    "image_url": "/illustrations/delete-staff.illustration.svg"
+  },
+  "crop_profile_photo_modal": {
+    "message": "裁剪照片",
+    "cancel": "取消",
+    "save": "保存"
+  },
+  "header": {
+    "profile": "个人资料",
+    "edit_my_profile": "更新个人资料"
+  },
+  "relogin_dialog": {
+    "message": "电话号码和/或密码已更改",
+    "description": "需要使用更新后的电话号码和密码重新登录。",
+    "ok": "确定",
+    "image_url": "/illustrations/delete-staff.illustration.svg"
+  },
+  "staff_name_input": {
+    "label": "姓名*",
+    "placeholder": "此处输入姓名...",
+    "error_message": "请输入合格正确的姓名！"
+  },
+  "staff_outlet_input": {
+    "label": "分店",
+    "placeholder": "输入分店名...",
+    "not_found": "没有找到"
+  },
+  "staff_password_input": {
+    "secret_placeholder": "••••••••••••",
+    "placeholder": "只有打算更新密码时才在此处输入",
+    "label": "密码*",
+    "length_validation": "介于6到12个字符之间",
+    "uppercase_validation": "至少有一个大写字母",
+    "lowercase_validation": "至少有一个小写字母",
+    "special_character_validation": "特殊字符仅包含 @$!%*#?&"
+  },
+  "staff_permission_input": {
+    "label": "权限",
+    "manager": "经理",
+    "employee": "员工"
+  },
+  "staff_position_input": {
+    "label": "职位",
+    "placeholder": "此处输入职位...",
+    "empty_placeholder": "不适用",
+    "start_helper_text": "可选"
+  },
+  "upload_staff_photo": {
+    "label": "照片",
+    "browse": "选择照片",
+    "optional": "可选"
+  },
+  "phonenumber": {
+    "label": "电话号码*",
+    "placeholder": "在此处输入电话号码...",
+    "max_length": 16,
+    "errors": [
+      {
+        "id": "INVALID_PHONE_NUMBER",
+        "name": "请输入有效的电话号码！"
+      }
+    ],
+    "country_code": {
+      "title": "搜索国家代码",
+      "placeholder": "在此输入国家名称...",
+      "errors": [
+        {
+          "id": "COUNTRY_NOT_FOUND",
+          "name": "未找到搜索内容，请重试。"
+        }
+      ]
+    }
+  },
+  "staff_country_code": {
+    "title": "搜索国家代码",
+    "placeholder": "在此输入国家名称",
+    "error_not_found": "未找到搜索内容，请重试。"
+  },
+  "actions": {
+    "back": "返回",
+    "submit": "提交",
+    "edit": "编辑"
+  },
+  "update_success": {
+    "message": "员工资料已经更新！",
+    "description": "去员工名单中查看。"
+  },
+  "error_duplicated_phone_number": {
+    "message": "电话号码已经注册",
+    "description": "请输入其他电话号码"
+  },
+  "error_invalid_phone_number": {
+    "message": "电话号码已经被使用",
+    "description": "请输入有效的电话号码"
+  }
+}

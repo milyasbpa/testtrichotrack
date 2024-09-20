@@ -1,0 +1,10 @@
+{
+  "src": "/illustrations/insufficient-credit-balance.illustration.svg",
+  "message": "Insufficient credit balance!",
+  "description": "Your credit balance is not enough. Please contact admin to top up.",
+  "cta": {
+    "primary": {
+      "children": "OK"
+    }
+  }
+}

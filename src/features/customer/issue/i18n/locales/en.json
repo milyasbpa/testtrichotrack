@@ -1,0 +1,55 @@
+{
+  "overview": {
+    "title": "Overview"
+  },
+  "rating": {
+    "title": "Understand Your Rating",
+    "factor": {
+      "items": [
+        {
+          "id": "overall",
+          "name": "Overall Rating"
+        }
+      ]
+    },
+    "evidence": {
+      "title": "{{factor}} Scan Evidence",
+      "factor": {
+        "label": "{{factor}} Rating"
+      }
+    }
+  },
+  "description": {
+    "title": "Introduction to",
+    "read_less": "Read Less",
+    "read_more": "Read More"
+  },
+  "level_info": {
+    "example": {
+      "label": "Examples"
+    }
+  },
+  "category_description_card": {
+    "template": "The {{category}} Rating is an overall assessment of your {{target}}. Your {{category}} Rating is {{rating}}, indicating {{x}}.",
+    "good_indicator_template": "your {{target}} is {{level}}",
+    "bad_indicator_template": "you're suffering from {{level}} {{issue}} problem"
+  },
+
+  "rating_card": {
+    "rating": "Rating",
+    "overall": "Overall",
+    "description": "Description",
+    "exemplar": "Exemplar",
+    "scan_evidence": "Scan Evidence"
+  },
+  "recommendation_card": {
+    "stage": "Stage",
+    "treatment_types": {
+      "home_cares": "Home Cares",
+      "care_plans": "Care Plans"
+    },
+    "image_url": "/illustrations/healthy-condition.illustration.svg",
+    "message": "To effectively solve the <span style='padding:0.25rem 0.5rem; background-color:#1b1b1b; border-radius:4px; font-size:1rem; font-weight:700; color: rgba(255, 255, 255,0.8);'>{{issue}}</span> problem, we highly recommend the below packages for their proven formula and technology:",
+    "no_recommendation": "You are in good condition, please keep it up!"
+  }
+}

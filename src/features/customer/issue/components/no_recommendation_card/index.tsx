@@ -1,0 +1,1 @@
+export * from "./NoRecommendationCard.issue";

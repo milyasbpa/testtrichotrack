@@ -1,0 +1,55 @@
+{
+  "header": {
+    "title": "Business Analytics"
+  },
+  "customer_visit_distribution_card": {
+    "title": "Customer Visit Distribution"
+  },
+  "customer_registration_card": {
+    "title": "Customer Registration"
+  },
+  "customer_visit_card": {
+    "title": "Customer Visit"
+  },
+  "report_request_card": {
+    "title": "Report Request"
+  },
+  "date_filter": {
+    "label": "Date",
+    "start_date_input": {
+      "label": "Start"
+    },
+    "end_date_input": {
+      "label": "End"
+    },
+    "error": {
+      "invalid_date": "Please input a valid date",
+      "start_date_must_be_smaller_than_end_date": "The start date must be smaller than end date",
+      "end_date_must_be_greater_than_start_date": "The end date must be greater than end date",
+      "resolution": "The selected range cannot exceed 30 * Resolution.",
+      "future_selection": "The end date must start day before from today"
+    },
+    "actions": {
+      "apply": "Apply",
+      "reset": "Reset"
+    }
+  },
+  "resolution_filter": {
+    "label": "Resolution"
+  },
+  "outlet_autocomplete": {
+    "label": "Outlet",
+    "not_found": "Nothing found"
+  },
+  "empty_bar_chart": {
+    "message": "The bin plot appears empty",
+    "description": "Indicating that there are no data points to be represented."
+  },
+  "empty_pie_chart": {
+    "message": "The pie chart appears empty",
+    "description": "Indicating that there are no data points to be represented."
+  },
+  "actions": {
+    "back": "Back"
+  }
+}

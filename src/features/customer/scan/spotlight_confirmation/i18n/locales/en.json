@@ -1,0 +1,26 @@
+{
+  "confirmation": {
+    "message": "Standard scan already completed, do you want to spotlight any other region?",
+    "actions": {
+      "secondary": "No",
+      "primary": "Yes"
+    },
+    "fun_fact": {
+      "message": "Please Wait",
+      "description": "Analyzing Scan",
+      "item": {
+        "title": "Fun Facts"
+      }
+    },
+    "errors": {
+      "maximum_limit_reached": {
+        "message": "The maximum limit reached",
+        "description": "You have reached the maximum limit. Please contact admin to upgrade your plan."
+      },
+      "insufficient_credit_balance": {
+        "message": "Insufficient credit balance",
+        "description": "Your credit balance is not enough. Please contact admin to top up."
+      }
+    }
+  }
+}

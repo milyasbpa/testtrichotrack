@@ -1,0 +1,21 @@
+{
+  "header": {
+    "title": "设备",
+    "subtitle": "数码显微镜"
+  },
+  "empty_list": {
+    "message": "未检测到设备",
+    "image_url": "/illustrations/search-not-found.illustration.svg"
+  },
+  "loader_list": {
+    "message": "搜索设备"
+  },
+  "name": {
+    "usb": "USB连接",
+    "wireless": "无线网络连接"
+  },
+  "actions": {
+    "rescan": "重新检测",
+    "back": "返回"
+  }
+}

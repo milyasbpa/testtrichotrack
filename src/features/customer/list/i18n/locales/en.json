@@ -1,0 +1,85 @@
+{
+  "header": {
+    "title": "Customer List"
+  },
+
+  "search_input": {
+    "placeholder": "Search name here ..."
+  },
+  "sort": {
+    "items": [
+      {
+        "id": "Name Ascending",
+        "name": "Name Ascending"
+      },
+      {
+        "id": "Name Descending",
+        "name": "Name Descending"
+      },
+      {
+        "id": "Registration Ascending",
+        "name": "Registration Ascending"
+      },
+      {
+        "id": "Registration Descending",
+        "name": "Registration Descending"
+      }
+    ]
+  },
+
+  "not_found": {
+    "image_url": "/illustrations/search-not-found.illustration.svg",
+    "message": "Search not found, please try again."
+  },
+  "phone_number_bottom_sheet": {
+    "title": "Customer Login",
+    "description": "Please enter your phone number",
+    "input": {
+      "label": "Phone Number",
+      "placeholder": "Type customer phone number here..."
+    },
+    "login": "LOGIN"
+  },
+  "otp_bottom_sheet": {
+    "message": "OTP has been sent",
+    "description": "Please key in the 6-digit OTP that we sent via SMS to this phone number.",
+    "error_message": "Didn't receive it? Request new OTP code.",
+    "resend_otp_text": "Send OTP"
+  },
+  "country_code_bottom_sheet": {
+    "title": "Search Country Code",
+    "search_placeholder": "Type country name or country code here...",
+    "error_message": "Search not found, please try again."
+  },
+  "actions": {
+    "back": "BACK"
+  },
+  "error_password": {
+    "message": "You entered a wrong password!",
+    "description": "Please check and try to enter again."
+  },
+  "error_invalid_phone_number": {
+    "message": "You entered an invalid phone number",
+    "description": "Please check and enter your registered phone number."
+  },
+  "error_unregister_phone_number": {
+    "message": "You entered an unregistered phone number",
+    "description": "Please check and enter your registered phone number."
+  },
+  "error_account_has_been_deleted": {
+    "message": "Customer has deleted this account",
+    "description": "Please register an account with a new mobile number."
+  },
+  "error_too_frequent_otp_request": {
+    "message": "Too frequent OTP request",
+    "description": "Please wait a minute to login again."
+  },
+  "error_internal_server_error": {
+    "message": "Failed to send OTP due to busy network",
+    "description": "Please wait a while and try again."
+  },
+  "error_wrong_otp": {
+    "message": "You entered the wrong OTP code",
+    "description": "Please check again and try to enter again."
+  }
+}

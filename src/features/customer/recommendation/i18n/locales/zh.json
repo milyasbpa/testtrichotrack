@@ -1,0 +1,15 @@
+{
+  "stage": "阶段",
+  "treatment_types": {
+    "care_plans": "到店护理",
+    "home_cares": "在家护理"
+  },
+  "title": "为您量身定制的护理计划",
+  "information_banner": {
+    "single_issue_message": "检测到一个头皮问题",
+    "multiple_issue_message": "检测到多个头皮问题"
+  },
+  "healthy_condition": {
+    "message": "您的状态良好，请继续保持！"
+  }
+}

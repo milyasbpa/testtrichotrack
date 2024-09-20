@@ -1,0 +1,10 @@
+{
+  "src": "/illustrations/maximum-limit-reached.illustration.svg",
+  "message": "The maximum limit reached!",
+  "description": "You have reached the maximum limit. Please contact admin to upgrade your plan.",
+  "cta": {
+    "primary": {
+      "children": "OK"
+    }
+  }
+}

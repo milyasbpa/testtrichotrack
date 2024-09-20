@@ -1,0 +1,59 @@
+{
+  "is_serving": "为您服务",
+  "logout": "退出",
+  "outlet": {
+    "label": "Outlet Info",
+    "image_url": "/icons/store-mall.icon.svg",
+    "cta": {
+      "primary": {
+        "children": "Change Outlet"
+      }
+    },
+    "form": {
+      "title": "Outlet List",
+      "search": {
+        "label": "Search",
+        "placeholder": "Search outlet name here..."
+      },
+      "cta": {
+        "primary": {
+          "children": "Save"
+        },
+        "secondary": {
+          "children": "Cancel"
+        }
+      }
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "id": "existing_customer",
+        "name": "Existing Customer",
+        "image_url": "CenterFocusWeak",
+        "description": "To log in existing customer using OTP",
+        "link": "/:locale/customer/login",
+        "platforms": ["pwa"],
+        "roles": ["ADMIN", "MANAGER", "EMPLOYEE"]
+      },
+      {
+        "id": "customer_registration",
+        "name": "New Customer",
+        "image_url": "PersonAdd",
+        "link": "/:locale/customer/registration",
+        "description": "To register new customer account",
+        "platforms": ["pwa"],
+        "roles": ["ADMIN", "MANAGER", "EMPLOYEE"]
+      },
+      {
+        "id": "customer_list",
+        "name": "Staff Dashboard",
+        "image_url": "ListAdd",
+        "link": "/:locale/staff/dashboard",
+        "description": "To view customers or update staff profile",
+        "platforms": ["pwa"],
+        "roles": ["ADMIN", "MANAGER", "EMPLOYEE"]
+      }
+    ]
+  }
+}

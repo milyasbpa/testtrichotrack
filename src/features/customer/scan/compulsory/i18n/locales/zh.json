@@ -1,0 +1,12 @@
+{
+  "scan": {
+    "microscope": "数码显微镜",
+    "actions": {
+      "secondary": "取消"
+    },
+    "counter_modal": {
+      "message": "照片已拍摄",
+      "description": "继续下一步。"
+    }
+  }
+}

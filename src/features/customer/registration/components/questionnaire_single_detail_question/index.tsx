@@ -1,0 +1,1 @@
+export * from "./QuestionnaireSingleDetailQuestion.registration";

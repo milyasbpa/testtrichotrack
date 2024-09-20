@@ -1,0 +1,47 @@
+{
+  "staff_login": {
+    "form": {
+      "name": "员工登录",
+      "description": "让我们登录账号后开始吧",
+      "phonenumber": {
+        "label": "电话号码",
+        "placeholder": "在此处输入已注册的电话号码...",
+        "max_length": 16,
+        "errors": [
+          {
+            "id": "INVALID_PHONE_NUMBER",
+            "name": "请输入有效的电话号码！"
+          }
+        ],
+        "country_code": {
+          "title": "搜索国家代码",
+          "placeholder": "在此输入国家名称...",
+          "errors": [
+            {
+              "id": "COUNTRY_NOT_FOUND",
+              "name": "未找到搜索内容，请重试。"
+            }
+          ]
+        }
+      },
+      "password": {
+        "label": "密码",
+        "placeholder": "在此处输入密码...",
+        "max_length": 255
+      },
+      "login": "登录",
+      "error_password": {
+        "message": "密码不正确！",
+        "description": "请重试。"
+      },
+      "error_subscription_expired": {
+        "message": "订阅已过期",
+        "description": "您的订阅已过期。请联系管理员以续订。"
+      },
+      "error_credit_points_exhausted": {
+        "message": "信用积点已用完",
+        "description": "您的信用余额已用完。请联系管理员进行充值。"
+      }
+    }
+  }
+}

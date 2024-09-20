@@ -1,0 +1,87 @@
+{
+  "confirmation": {
+    "message": "确定要更新分店资料吗？",
+    "description": "请在提交之前确保资料正确。",
+    "image_url": "/illustrations/delete-staff.illustration.svg",
+    "cta": {
+      "primary": {
+        "children": "提交"
+      },
+      "secondary": {
+        "children": "重新检查"
+      }
+    }
+  },
+  "crop_outlet_photo_modal": {
+    "message": "裁剪照片",
+    "cancel": "取消",
+    "save": "保存"
+  },
+  "header": {
+    "title": "更新分店资料"
+  },
+  "outlet_address_input": {
+    "label": "分店地址",
+    "placeholder": "在此处输入分店地址...",
+    "start_helper_text": "可选"
+  },
+  "outlet_name_input": {
+    "label": "分店名字*",
+    "placeholder": "在此处输入分店名字...",
+    "error_message": "请输入合格正确的名字！"
+  },
+  "phonenumber": {
+    "label": "电话号码*",
+    "placeholder": "在此处输入电话号码...",
+    "max_length": 16,
+    "errors": [
+      {
+        "id": "INVALID_PHONE_NUMBER",
+        "name": "请输入有效的电话号码！"
+      }
+    ],
+    "country_code": {
+      "title": "搜索国家代码",
+      "placeholder": "在此输入国家名称...",
+      "errors": [
+        {
+          "id": "COUNTRY_NOT_FOUND",
+          "name": "未找到搜索内容，请重试。"
+        }
+      ]
+    }
+  },
+  "upload_outlet_photo": {
+    "label": "分店照片",
+    "browse": "选择照片",
+    "optional": "可选"
+  },
+  "actions": {
+    "back": "返回",
+    "submit": "提交"
+  },
+  "update_success": {
+    "message": "分店资料已经更新！",
+    "description": "去分店名单中查看。"
+  },
+  "error_name_already_registered": {
+    "message": "这个名字已经被使用",
+    "description": "请尝试另一个名字。"
+  },
+  "error_invalid_name": {
+    "message": "输入的名字不合要求",
+    "description": "请输入合格正确的名字！"
+  },
+  "error_duplicated_phone_number": {
+    "message": "电话号码已经被注册",
+    "description": "请输入其他电话号码。"
+  },
+  "error_invalid_phone_number": {
+    "message": "电话号码错误",
+    "description": "请输入有效的电话号码！"
+  },
+  "error_internal_server_error": {
+    "message": "网路繁忙，验证码发送失败",
+    "description": "请稍候重新尝试。"
+  }
+}

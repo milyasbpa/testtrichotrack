@@ -1,0 +1,29 @@
+{
+  "header": {
+    "title": "Edit Company Logo"
+  },
+
+  "logo_uploader": {
+    "requirement": {
+      "message": "Please look carefully before uploading the image:",
+      "list": {
+        "1": "File must be .PNG format",
+        "2": "Maximum size is less than 2MB",
+        "3": "The image must have an aspect ratio (W/H) ranging from 1:1 to 5:1"
+      }
+    }
+  },
+
+  "success_dialog": {
+    "message": "Congratulations! Your new company logo has been applied.",
+    "image_url": "/illustrations/success-update-company-logo.illustration.svg",
+    "description": "Your company now has a fresh look.",
+    "close": "Close"
+  },
+
+  "actions": {
+    "back": "Back",
+    "save": "Save",
+    "browse_image": "Browse Image"
+  }
+}

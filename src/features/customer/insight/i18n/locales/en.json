@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "Insight"
+  },
+  "min_age_filter": {
+    "label": "Min Age",
+    "errors": {
+      "greater_than_max_age": "Value must less than max age"
+    }
+  },
+  "max_age_filter": {
+    "label": "Max Age",
+    "errors": {
+      "less_than_min_age": "Value must greater than min age"
+    }
+  },
+  "gender_filter": {
+    "label": "Gender"
+  },
+  "race_filter": {
+    "label": "Race"
+  },
+  "resolution_filter": {
+    "label": "Resolution"
+  },
+  "empty_bar_chart": {
+    "message": "The bin plot appears empty",
+    "description": "Indicating that there are no data points to be represented."
+  },
+  "empty_pie_chart": {
+    "message": "The pie chart appears empty",
+    "description": "Indicating that there are no data points to be represented."
+  },
+  "actions": {
+    "back": "Back"
+  }
+}

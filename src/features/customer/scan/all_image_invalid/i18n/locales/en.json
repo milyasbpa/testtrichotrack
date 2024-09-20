@@ -1,0 +1,8 @@
+{
+  "error": {
+    "description": "Please start a new case and try again.",
+    "actions": {
+      "primary": "Try Again"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "step": {
+    "items": [
+      {
+        "id": "1",
+        "name": "必答<br/>信息"
+      },
+      {
+        "id": "2",
+        "name": "其他信息<br/>（可答）"
+      },
+      {
+        "id": "3",
+        "name": "调查问卷<br/>（可答）"
+      },
+      {
+        "id": "4",
+        "name": "用户<br/>协议"
+      }
+    ]
+  },
+  "required": {
+    "title": "完成您的个人资料信息",
+    "avatar_profile": {
+      "take": "拍照",
+      "image": {
+        "default_url": "/images/sample-photo.image.svg",
+        "banner_url": "/images/retake-banner.image.svg"
+      }
+    },
+    "fullname_input": {
+      "label": "姓名*",
+      "placeholder": "在此处输入姓名...",
+      "error_message": "请输入合格正确的姓名！"
+    },
+    "date_of_birth_dropdown": {
+      "label": "出生日期*",
+      "date_placeholder": "选择日期",
+      "month_placeholder": "选择月份",
+      "year_placeholder": "选择年份"
+    },
+    "race_dropdown": {
+      "label": "种族*",
+      "placeholder": "选择种族"
+    },
+    "gender_input": {
+      "label": "性别*"
+    },
+    "phonenumber": {
+      "label": "电话号码*",
+      "placeholder": "在此处输入电话号码...",
+      "max_length": 16,
+      "errors": [
+        {
+          "id": "INVALID_PHONE_NUMBER",
+          "name": "请输入有效的电话号码！"
+        }
+      ],
+      "country_code": {
+        "title": "搜索国家代码",
+        "placeholder": "在此输入国家名称...",
+        "errors": [
+          {
+            "id": "COUNTRY_NOT_FOUND",
+            "name": "未找到搜索内容，请重试。"
+          }
+        ]
+      }
+    },
+    "otp_bottom_sheet": {
+      "message": "验证码已发送",
+      "description": "请输入通过此电话号码短信收到的六位数的验证码。",
+      "error_message": "没收到？请求重新发送验证码。",
+      "send_otp": "发送验证码"
+    },
+    "error": {
+      "duplicated_phone_number": "电话号码已经被注册",
+      "bad_phone_number_request": "电话号码错误",
+      "internal_server_error": "网路繁忙，验证码发送失败"
+    },
+    "error_suggestion": {
+      "duplicated_phone_number": "请输入其他电话号码。",
+      "bad_phone_number_request": "请输入有效的电话号码！",
+      "internal_server_error": "请稍候重新尝试。"
+    },
+    "actions": {
+      "back": "返回",
+      "send_otp": "发送验证码",
+      "next": "继续"
+    }
+  },
+
+  "profile_picture": {
+    "message": "请将脸部全部置于圆形区域内",
+    "description": "请确保光线适当、脸部清晰可见。",
+    "back": "返回",
+    "take_a_picture": "拍照"
+  },
+  "profile_picture_preview": {
+    "message": "您的照片已拍摄。 您喜欢这张照片吗？",
+    "description": "如果您不满意请按重拍按钮重新拍一次。",
+    "retake": "重拍",
+    "yes": "确定"
+  },
+  "additional": {
+    "title": "其他信息",
+    "email_address": {
+      "label": "电子邮件地址",
+      "placeholder": "例如： alvisual@mail.com",
+      "error_message": "请输入有效的电子邮件地址！"
+    },
+    "profession": {
+      "label": "职业",
+      "placeholder": "在此输入职业..."
+    },
+    "citizenship": {
+      "label": "国籍",
+      "placeholder": "选择国籍"
+    },
+    "marital_status": {
+      "label": "婚姻状况"
+    },
+    "address": {
+      "label": "住址",
+      "placeholder": "例如：16 Sandilands Road Singapore"
+    },
+    "actions": {
+      "back": "返回",
+      "next": "继续"
+    }
+  },
+
+  "questionnaire": {
+    "title": "调查问卷",
+    "navigation": {
+      "message": "{{startQuestionIndex}} 到 {{endQuestionIndex}} 个，共 {{totalQuestion}} 个",
+      "description": "向下箭头继续下一个问题"
+    },
+    "single_question": {
+      "others_placeholder": "在此处输入您的详细信息..."
+    },
+    "multiple_question": {
+      "others_placeholder": "在此处输入您的详细信息..."
+    },
+    "open_question": {
+      "placeholder": "在这里输入您的答案..."
+    },
+    "actions": {
+      "back": "返回",
+      "next": "继续"
+    }
+  },
+
+  "agreement": {
+    "title": "客户协议",
+
+    "compulsory": {
+      "required": "（必选）：",
+      "statement": "本人特此声明",
+      "1": "我已完全披露与我的治疗有关的所有相关信息。",
+      "2": "我确认，我所提供的信息是准确的，我不会要求公司对因治疗或治疗期间使用的产品引起的任何不利影响负责。",
+      "3": "我同意接受公司的治疗。",
+      "yes": "是",
+      "no": "否"
+    },
+    "optional": {
+      "optional": "（可选）",
+      "statement": "我同意接收来自公司的信息和促销活动信息。",
+      "yes": "是",
+      "no": "否"
+    },
+    "actions": {
+      "back": "返回",
+      "save": "保存"
+    }
+  },
+
+  "registration_success": {
+    "message": "注册成功",
+    "description": "所填资料已经保存。"
+  },
+  "insufficient_credit_balance": {
+    "src": "/illustrations/insufficient-credit-balance.illustration.svg",
+    "message": "余额不足！",
+    "description": "您的信用余额不足，请联系管理员进行充值。",
+    "cta": {
+      "primary": {
+        "children": "确定"
+      }
+    }
+  },
+  "maximum_limit_reached": {
+    "src": "/illustrations/maximum-limit-reached.illustration.svg",
+    "message": "已达到最大限额！",
+    "description": "已经达到最大限额。请联系管理员升级您的配套。",
+    "cta": {
+      "primary": {
+        "children": "确定"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "Stage",
+  "treatment_types": {
+    "care_plans": "Care Plans",
+    "home_cares": "Home Cares"
+  },
+  "title": "The treatment plan tailored for you",
+  "information_banner": {
+    "single_issue_message": "Single scalp issue detected",
+    "multiple_issue_message": "Multiple scalp issues detected"
+  },
+  "healthy_condition": {
+    "message": "You are in good condition, please keep it up!"
+  }
+}

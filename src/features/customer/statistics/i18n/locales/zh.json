@@ -1,0 +1,40 @@
+{
+  "header": {
+    "title": "客户统计分析"
+  },
+  "age_bin_plot": {
+    "title": "年龄分布柱状图"
+  },
+  "gender_card": {
+    "title": "性别分布"
+  },
+  "race_card": {
+    "title": "种族分布"
+  },
+  "age_distribution_card": {
+    "title": "年龄分布"
+  },
+  "start_age_filter": {
+    "label": "起始年龄"
+  },
+  "end_age_filter": {
+    "label": "结束年龄"
+  },
+  "age_resolution_filter": {
+    "label": "分辨率"
+  },
+  "gender_filter": {
+    "label": "性别"
+  },
+  "empty_bar_chart": {
+    "message": "这个图是空的",
+    "description": "这表示没有数据点可以显示。"
+  },
+  "empty_pie_chart": {
+    "message": "这个图是空的",
+    "description": "这表示没有数据点可以显示。"
+  },
+  "actions": {
+    "back": "返回"
+  }
+}

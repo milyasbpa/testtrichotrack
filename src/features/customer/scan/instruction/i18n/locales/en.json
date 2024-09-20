@@ -1,0 +1,8 @@
+{
+  "message": "Global scans have been completed. We will proceed to local scans",
+  "image_url": "/illustrations/scalp-scan.illustration.svg",
+  "actions": {
+    "primary": "Next",
+    "secondary": "Back"
+  }
+}

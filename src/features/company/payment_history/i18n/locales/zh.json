@@ -1,0 +1,55 @@
+{
+  "title": "付款记录",
+  "period": {
+    "label": "日期"
+  },
+  "sort": {
+    "label": "按日期时间排序",
+    "items": [
+      {
+        "id": "descending",
+        "name": "降序"
+      },
+      {
+        "id": "ascending",
+        "name": "升序"
+      }
+    ]
+  },
+  "filter": {
+    "period": {
+      "label": "日期",
+      "errors": {
+        "invalid_month": {
+          "code": "INVALID_MONTH",
+          "message": "输入不合格，请选择合格正确的年月。"
+        }
+      },
+      "cta": {
+        "primary": {
+          "children": "确定"
+        },
+        "secondary": {
+          "children": "重置"
+        }
+      }
+    }
+  },
+  "items": {
+    "cta": {
+      "primary": {
+        "children": "下载收据"
+      }
+    }
+  },
+  "errors": {
+    "no_payment_record": {
+      "message": "未找到付款记录。请尝试其它日期。"
+    }
+  },
+  "cta": {
+    "primary": {
+      "children": "返回"
+    }
+  }
+}

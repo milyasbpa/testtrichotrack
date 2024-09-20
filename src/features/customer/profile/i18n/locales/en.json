@@ -1,0 +1,122 @@
+{
+  "edit_profile": {
+    "title": "Edit Profile",
+    "avatar_profile": {
+      "change": "Change",
+      "image": {
+        "default_url": "/images/sample-photo.image.svg",
+        "banner_url": "/images/retake-banner.image.svg"
+      }
+    },
+    "fullname_input": {
+      "label": "Fullname*",
+      "placeholder": "Type fullname here...",
+      "error_message": "Please enter valid full name!"
+    },
+    "date_of_birth_dropdown": {
+      "label": "Date of Birth*",
+      "date_placeholder": "Pick Date",
+      "month_placeholder": "Pick Month",
+      "year_placeholder": "Pick Year"
+    },
+    "race_dropdown": {
+      "label": "Race*",
+      "placeholder": "Select race"
+    },
+    "gender_input": {
+      "label": "Gender*"
+    },
+    "phonenumber": {
+      "label": "Phone Number*",
+      "placeholder": "Type phone number here...",
+      "max_length": 16,
+      "errors": [
+        {
+          "id": "INVALID_PHONE_NUMBER",
+          "name": "Please type valid phone number!"
+        }
+      ],
+      "country_code": {
+        "title": "Search Country Code",
+        "placeholder": "Type country name here...",
+        "errors": [
+          {
+            "id": "COUNTRY_NOT_FOUND",
+            "name": "Search not found, please try again."
+          }
+        ]
+      }
+    },
+    "country_code": {
+      "title": "Search Country Code",
+      "placeholder": "Type country name here...",
+      "error_not_found": "Search not found, please try again."
+    },
+    "otp_bottom_sheet": {
+      "message": "OTP has been sent",
+      "description": "Please key in the 6-digit OTP that we sent via SMS to this phone number.",
+      "error_message": "Didn't receive it? Request new OTP code.",
+      "send_otp": "Send OTP"
+    },
+    "error": {
+      "duplicated_phone_number": "Phone number is already registered",
+      "bad_phone_number_request": "Invalid phone number!",
+      "internal_server_error": "Failed to send OTP due to busy network"
+    },
+    "error_suggestion": {
+      "duplicated_phone_number": "Please type another phone number.",
+      "bad_phone_number_request": "Please type valid phone number!",
+      "internal_server_error": "Please wait a while and try again."
+    },
+    "email_address": {
+      "label": "Email Address",
+      "placeholder": "e.g alvisual@mail.com",
+      "error_message": "Please enter valid email address!"
+    },
+    "profession": {
+      "label": "Profession",
+      "placeholder": "Type profession here..."
+    },
+    "citizenship": {
+      "label": "Citizenship",
+      "placeholder": "Type citizenship"
+    },
+    "marital_status": {
+      "label": "Marital Status"
+    },
+    "address": {
+      "label": "Address",
+      "placeholder": "e.g Ms. Tan Bee Soo 16 Sandilands Road Singapore"
+    },
+    "actions": {
+      "back": "Back",
+      "send_otp": "Send OTP",
+      "save": "Save"
+    }
+  },
+  "profile_picture": {
+    "message": "Please kindly point your full face to the round shaped area",
+    "description": "Ensure face is visible with proper lighting.",
+    "back": "BACK",
+    "take_a_picture": "Take A Picture"
+  },
+  "profile_picture_preview": {
+    "message": "Your picture has been taken. Do you like the picture?",
+    "description": "If you want to retake just click the retake button.",
+    "retake": "Retake",
+    "yes": "Yes"
+  },
+  "profile_confirmation": {
+    "message": "Are you sure about the information changes made?",
+    "description": "Make sure you change the information correctly.",
+    "image_url": "/illustrations/edit-confirmation.illustration.svg",
+    "check_again": "Check Again",
+    "save": "Save"
+  },
+  "marketing_promotion": {
+    "optional": "(Optional)",
+    "statement": "I consent to receive informational and promotional marketing communications from the Company.",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

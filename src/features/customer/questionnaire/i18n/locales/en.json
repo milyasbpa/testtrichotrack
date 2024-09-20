@@ -1,0 +1,32 @@
+{
+  "edit_questionnaire": {
+    "title": "Questionnaire",
+    "navigation": {
+      "message": "{{startQuestionIndex}} to {{endQuestionIndex}} of {{totalQuestion}}",
+      "description": "Down arrow to continue to the next question"
+    },
+    "single_question": {
+      "others_placeholder": "Type your details here..."
+    },
+    "multiple_question": {
+      "others_placeholder": "Type your details here..."
+    },
+    "open_question": {
+      "placeholder": "Type your answer here..."
+    },
+    "actions": {
+      "back": "Back",
+      "next": "next"
+    }
+  },
+
+  "edit_confirmation": {
+    "message": "Are you sure about the information changes made?",
+    "description": "Make sure you change the information correctly.",
+    "image_url": "/illustrations/edit-confirmation.illustration.svg",
+    "actions": {
+      "check_again": "Check Again",
+      "save": "Save"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.photo-camera__container {
+  width: 480px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 16px;
+}
+.photo-camera__webcam {
+  border-radius: 16px;
+  transform: scaleX(-1);
+  min-height: 640px;
+}
+.photo-camera__backdrop {
+  position: absolute;
+  z-index: 2;
+}
+.photo-camera__circle-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 160px;
+
+  right: 0px;
+  border-radius: 50%;
+  z-index: 90;
+}
+
+.photo-camera__loader-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: #000000;
+  border: 1px solid #666666;
+  border-radius: 16px;
+  display: grid;
+  place-content: center;
+  place-items: center;
+
+  height: 640px;
+  width: 480px;
+}

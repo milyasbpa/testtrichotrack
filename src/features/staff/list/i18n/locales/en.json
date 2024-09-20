@@ -1,0 +1,53 @@
+{
+  "header": {
+    "title": "Staff List"
+  },
+  "search_input": {
+    "label": "Search",
+    "placeholder": "Search name here ..."
+  },
+  "sort": {
+    "items": [
+      {
+        "id": "Name Ascending",
+        "name": "Name Ascending"
+      },
+      {
+        "id": "Name Descending",
+        "name": "Name Descending"
+      },
+      {
+        "id": "Registration Ascending",
+        "name": "Registration Ascending"
+      },
+      {
+        "id": "Registration Descending",
+        "name": "Registration Descending"
+      }
+    ]
+  },
+  "item_card": {
+    "registration_time": "Registration Time:<br />{{registration_time}}",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "outlet_autocomplete": {
+    "label": "Filter by outlet",
+    "not_found": "Nothing found"
+  },
+  "permission_autocomplete": {
+    "label": "Filter by permission",
+    "not_found": "Nothing Found"
+  },
+  "search_not_found_section": {
+    "message": "Search not found, please try again.",
+    "image_url": "/illustrations/search-not-found.illustration.svg"
+  },
+  "staff_delete_dialog": {
+    "message": "Are you sure to delete",
+    "description": "Please be careful to delete.",
+    "image_url": "/illustrations/delete-staff.illustration.svg",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  }
+}

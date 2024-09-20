@@ -1,0 +1,100 @@
+{
+  "confirmation": {
+    "message": "Are you sure to add this new staff?",
+    "description": "Please ensure the particulars are correct before submission.",
+    "image_url": "/illustrations/delete-staff.illustration.svg",
+    "cta": {
+      "primary": {
+        "children": "Submit"
+      },
+      "secondary": {
+        "children": "Check Again"
+      }
+    }
+  },
+  "crop_profile_photo_modal": {
+    "message": "Crop Your Photo",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "header": {
+    "title": "Add Staff"
+  },
+  "staff_name_input": {
+    "label": "Name*",
+    "placeholder": "Type name here..."
+  },
+  "staff_outlet_input": {
+    "label": "Outlet*",
+    "placeholder": "Type outlet here...",
+    "not_found": "Nothing Found"
+  },
+  "staff_password_input": {
+    "placeholder": "Type password here...",
+    "label": "Password*"
+  },
+  "staff_permission_input": {
+    "label": "Permission*",
+    "manager": "Manager",
+    "employee": "Employee"
+  },
+  "staff_position_input": {
+    "label": "Position",
+    "placeholder": "Type position here...",
+    "start_helper_text": "Optional"
+  },
+  "phonenumber": {
+    "label": "Phone Number*",
+    "placeholder": "Type phone number here...",
+    "max_length": 16,
+    "errors": [
+      {
+        "id": "INVALID_PHONE_NUMBER",
+        "name": "Please type valid phone number!"
+      }
+    ],
+    "country_code": {
+      "title": "Search Country Code",
+      "placeholder": "Type country name here...",
+      "errors": [
+        {
+          "id": "COUNTRY_NOT_FOUND",
+          "name": "Search not found, please try again."
+        }
+      ]
+    }
+  },
+  "upload_staff_photo": {
+    "label": "Profile Photo",
+    "browse": "Browse",
+    "optional": "Optional"
+  },
+  "actions": {
+    "back": "Back",
+    "submit": "Submit"
+  },
+  "registration_success": {
+    "message": "Staff successfully added!",
+    "description": "Check staff list to view."
+  },
+  "error_duplicated_phone_number": {
+    "message": "Phone number is already registered",
+    "description": "Please type another phone number."
+  },
+  "error_bad_request": {
+    "message": "Some part of the input data is invalid",
+    "description": "Please check the entered password and phone number, then try again."
+  },
+  "error_invalid_phone_number": {
+    "message": "Invalid phone number",
+    "description": "Please type valid phone number."
+  },
+  "error_maximum_limit_reached": {
+    "message": "The maximum limit reached",
+    "description": "You have reached the maximum limit. Please contact admin to upgrade your plan."
+  },
+  "error_insufficient_credit_balance": {
+    "message": "Insufficient credit balance",
+    "description": "Your credit balance is not enough. Please contact admin to top up."
+  }
+}

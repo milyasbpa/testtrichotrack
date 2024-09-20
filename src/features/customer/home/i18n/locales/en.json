@@ -1,0 +1,53 @@
+{
+  "greeting": "Welcome Back,",
+  "logout": "Logout",
+  "menu": {
+    "items": [
+      {
+        "id": "scan_record",
+        "name": "Scan Record",
+        "image_url": "FindInPage",
+        "description": "",
+        "link": "/:locale/customer/record",
+        "platforms": ["pwa", "browser"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "scan",
+        "name": "New Scan",
+        "image_url": "CameraAlt",
+        "description": "",
+        "link": "/:locale/customer/scan/global-area-instruction",
+        "platforms": ["pwa"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "live_cam",
+        "name": "Live Cam",
+        "image_url": "Camera",
+        "description": "",
+        "link": "/:locale/customer/live-camera",
+        "platforms": ["pwa"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "edit_profile",
+        "name": "Edit Profile",
+        "image_url": "Person",
+        "description": "",
+        "link": "/:locale/customer/my-profile",
+        "platforms": ["pwa", "browser"],
+        "roles": ["CUSTOMER"]
+      },
+      {
+        "id": "edit_questionnaire",
+        "name": "Edit Questionnaire",
+        "image_url": "Ballot",
+        "description": "",
+        "link": "/:locale/customer/my-questionnaire",
+        "platforms": ["pwa", "browser"],
+        "roles": ["CUSTOMER"]
+      }
+    ]
+  }
+}

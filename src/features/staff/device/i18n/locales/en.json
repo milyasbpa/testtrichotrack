@@ -1,0 +1,21 @@
+{
+  "header": {
+    "title": "Device",
+    "subtitle": "Microscope"
+  },
+  "empty_list": {
+    "message": "No device detected",
+    "image_url": "/illustrations/search-not-found.illustration.svg"
+  },
+  "loader_list": {
+    "message": "Searching devices"
+  },
+  "name": {
+    "usb": "USB",
+    "wireless": "Wireless"
+  },
+  "actions": {
+    "rescan": "Re-Scan",
+    "back": "Back"
+  }
+}

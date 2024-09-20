@@ -1,0 +1,8 @@
+{
+  "message": "头部全貌图像已经拍摄完成。接下来将进行头皮的局部扫描。",
+  "image_url": "/illustrations/scalp-scan.illustration.svg",
+  "actions": {
+    "primary": "继续",
+    "secondary": "返回"
+  }
+}

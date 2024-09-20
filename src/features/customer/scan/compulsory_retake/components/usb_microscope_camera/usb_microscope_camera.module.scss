@@ -1,0 +1,75 @@
+.scalp-scan-camera {
+  &__container {
+    width: 100%;
+
+    border: 1px solid #666666;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    position: relative;
+
+    border-radius: 16px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+
+    // additional
+    box-sizing: border-box;
+    max-width: calc(912px - 128px);
+    // old
+    height: 952px;
+    overflow: hidden;
+
+    // new
+    &--portrait {
+      max-width: calc(912px - 128px);
+    }
+
+    &--landscape {
+      max-width: 100%;
+    }
+  }
+
+  &__webcam-box {
+    width: 952px;
+
+    display: grid;
+    aspect-ratio: 4 / 3;
+    grid-template-columns: 1fr;
+
+    border-radius: 16px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
+
+  &__webcam {
+    border-radius: 0px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 952px;
+    height: calc(952px*3/4);
+  }
+
+  &__loader-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 712px;
+    aspect-ratio: 3 / 4;
+
+    position: absolute;
+
+    background: #000000;
+
+    border-radius: 16px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "header": {
+    "title": "员工名单"
+  },
+  "search_input": {
+    "label": "搜索",
+    "placeholder": "此处输入要搜索的名字..."
+  },
+  "sort": {
+    "items": [
+      {
+        "id": "Name Ascending",
+        "name": "名字升序"
+      },
+      {
+        "id": "Name Descending",
+        "name": "名字降序"
+      },
+      {
+        "id": "Registration Ascending",
+        "name": "注册时间升序"
+      },
+      {
+        "id": "Registration Descending",
+        "name": "注册时间降序"
+      }
+    ]
+  },
+  "item_card": {
+    "registration_time": "注册时间：<br />{{registration_time}}",
+    "delete": "删除",
+    "edit": "编辑"
+  },
+  "outlet_autocomplete": {
+    "label": "按分店筛选",
+    "not_found": "未找到任何结果"
+  },
+  "permission_autocomplete": {
+    "label": "按权限筛选",
+    "not_found": "未找到任何结果"
+  },
+  "search_not_found_section": {
+    "message": "未找到搜索内容，请重试。",
+    "image_url": "/illustrations/search-not-found.illustration.svg"
+  },
+  "staff_delete_dialog": {
+    "message": "确定要删除",
+    "description": "请仔细考虑后确认删除。",
+    "image_url": "/illustrations/delete-staff.illustration.svg",
+    "cancel": "取消",
+    "delete": "删除"
+  }
+}

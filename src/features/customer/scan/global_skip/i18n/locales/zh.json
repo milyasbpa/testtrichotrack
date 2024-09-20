@@ -1,0 +1,8 @@
+{
+  "message": "头部全貌拍照已经跳过，接下来进行头皮的显微镜扫描。",
+  "image_url": "/illustrations/scalp-scan.illustration.svg",
+  "actions": {
+    "primary": "继续",
+    "secondary": "返回"
+  }
+}

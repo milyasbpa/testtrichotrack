@@ -1,0 +1,15 @@
+{
+  "limit": {
+    "message": "扫描图片数量已到上限。稍后将开始头皮的数据分析。",
+    "actions": {
+      "primary": "确定"
+    },
+    "fun_fact": {
+      "message": "请稍候",
+      "description": "正在进行分析中 ...",
+      "item": {
+        "title": "趣味小知识"
+      }
+    }
+  }
+}

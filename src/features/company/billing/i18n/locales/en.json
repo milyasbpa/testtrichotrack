@@ -1,0 +1,66 @@
+{
+  "current_tier": {
+    "label": "Current Tier"
+  },
+  "expired_date": {
+    "label": "Expiration Date"
+  },
+  "day_remaining": {
+    "label": {
+      "singular": "{{day}} Day Left",
+      "plural": "{{day}} Days Left"
+    }
+  },
+  "remaining_credit": {
+    "label": "Remaining Credit"
+  },
+  "topup": {
+    "cta": {
+      "primary": {
+        "children": "Top Up"
+      }
+    }
+  },
+  "member": {
+    "outlet": {
+      "label": {
+        "singular": "Outlet",
+        "plural": "Outlets"
+      },
+      "icon": "Outlets"
+    },
+    "staff": {
+      "label": {
+        "singular": "Staff",
+        "plural": "Staffs"
+      },
+      "icon": "StaffBilling"
+    },
+    "customers": {
+      "label": {
+        "singular": "Customer",
+        "plural": "Customers"
+      },
+      "icon": "CustomerBilling"
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "name": "Payment History",
+        "icon": "PaymentHistory",
+        "link": "/{{locale}}/company/payment-history"
+      },
+      {
+        "name": "Notification Preferences",
+        "icon": "NotificationPreferences",
+        "link": "/{{locale}}/company/notification-preferences"
+      }
+    ]
+  },
+  "cta": {
+    "primary": {
+      "children": "Back"
+    }
+  }
+}

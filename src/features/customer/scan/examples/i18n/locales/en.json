@@ -1,0 +1,9 @@
+{
+  "examples": {
+    "title": "Scan Guideline",
+    "actions": {
+      "secondary": "Back",
+      "primary": "Start"
+    }
+  }
+}

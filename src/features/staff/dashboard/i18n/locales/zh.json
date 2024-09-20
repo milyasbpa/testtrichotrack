@@ -1,0 +1,149 @@
+{
+  "is_serving": "为您服务",
+  "logout": "退出",
+  "outlet": {
+    "label": "Outlet Info",
+    "image_url": "/icons/store-mall.icon.svg",
+    "cta": {
+      "primary": {
+        "children": "Change Outlet"
+      }
+    },
+    "form": {
+      "title": "Outlet List",
+      "search": {
+        "label": "Search",
+        "placeholder": "Search outlet name here..."
+      },
+      "cta": {
+        "primary": {
+          "children": "Save"
+        },
+        "secondary": {
+          "children": "Cancel"
+        }
+      }
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "id": "staff_add",
+        "name": "添加员工",
+        "image_url": "StaffAdd",
+        "description": "",
+        "link": "/:locale/staff/add",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN", "MANAGER"]
+      },
+      {
+        "id": "staff_list",
+        "name": "员工名单",
+        "image_url": "Staffs",
+        "link": "/:locale/staffs",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN", "MANAGER"]
+      },
+      {
+        "id": "customer_list",
+        "name": "客户名单",
+        "image_url": "Customers",
+        "link": "/:locale/customers",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN", "MANAGER", "EMPLOYEE"]
+      },
+      {
+        "id": "outlet_add",
+        "name": "添加分店",
+        "image_url": "OutletAdd",
+        "link": "/:locale/outlet/add",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      },
+      {
+        "id": "outlet_list",
+        "name": "分店名单",
+        "image_url": "Outlets",
+        "link": "/:locale/outlets",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      },
+      {
+        "id": "outlet_view",
+        "name": "所属分店",
+        "image_url": "Outlets",
+        "link": "/:locale/my-outlet",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["MANAGER", "EMPLOYEE"]
+      },
+      {
+        "id": "staff_profile",
+        "name": "个人资料",
+        "image_url": "Person",
+        "link": "/:locale/staff/my-profile",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN", "MANAGER", "EMPLOYEE"]
+      },
+      {
+        "id": "customer_statistics",
+        "name": "客户统计",
+        "image_url": "CustomerStatistics",
+        "link": "/:locale/customer/statistics",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      },
+      {
+        "id": "customer_analytics",
+        "name": "商业分析",
+        "image_url": "CustomerAnalytics",
+        "link": "/:locale/customer/business-analytics",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      },
+      {
+        "id": "customer_insight",
+        "name": "深入分析",
+        "image_url": "CustomerInsight",
+        "link": "/:locale/customer/insight",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      },
+      {
+        "id": "customer_inactive",
+        "name": "非活跃客户",
+        "image_url": "CustomerInactive",
+        "link": "/:locale/customer/inactive",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      },
+      {
+        "id": "company_billing",
+        "name": "费用账单",
+        "image_url": "CompanyBilling",
+        "link": "/:locale/company/billing",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      },
+      {
+        "id": "company_edit_logo",
+        "name": "编辑公司标志",
+        "image_url": "CompanyEditLogo",
+        "link": "/:locale/company/edit-logo",
+        "description": "",
+        "platforms": ["pwa", "browser"],
+        "roles": ["ADMIN"]
+      }
+    ]
+  }
+}

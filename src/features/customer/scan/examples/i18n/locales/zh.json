@@ -1,0 +1,9 @@
+{
+  "examples": {
+    "title": "扫描指南",
+    "actions": {
+      "secondary": "返回",
+      "primary": "开始"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "type": {
+    "items": [
+      {
+        "id": "Overview",
+        "name": "Overview"
+      },
+      {
+        "id": "Screening",
+        "name": "Screening"
+      },
+      {
+        "id": "Trends",
+        "name": "Trends"
+      }
+    ]
+  },
+  "overview": {
+    "information_banner": {
+      "message": "The below statistics are calculated upon all the scans of the current case"
+    },
+    "radar": {
+      "label": {
+        "position": {
+          "items": [
+            {
+              "id": 0,
+              "top": "0%",
+              "left": "42%",
+              "text": {
+                "position": "right"
+              }
+            },
+            {
+              "id": 1,
+              "top": "22%",
+              "left": "81%",
+              "text": {
+                "position": "right"
+              }
+            },
+            {
+              "id": 2,
+              "top": "68%",
+              "left": "81%",
+              "text": {
+                "position": "right"
+              }
+            },
+            {
+              "id": 3,
+              "top": "95%",
+              "left": "39.5%",
+              "text": {
+                "position": "right"
+              }
+            },
+            {
+              "id": 4,
+              "top": "22%",
+              "left": "4%",
+              "text": {
+                "position": "left"
+              }
+            },
+            {
+              "id": 5,
+              "top": "68%",
+              "left": "0%",
+              "text": {
+                "position": "left"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "category_description_card": {
+      "template": "The {{category}} Rating is an overall assessment of your {{target}}. Your {{category}} Rating is {{rating}}, indicating {{x}}.",
+      "good_indicator_template": "your {{target}} is {{level}}",
+      "bad_indicator_template": "you’re suffering from {{level}} {{issue}} problem"
+    },
+    "actions": {
+      "read_more": "Read More"
+    }
+  },
+  "biometrics": {
+    "information_banner": {
+      "message": "The below statistics are calculated upon all the scans of the current case"
+    }
+  },
+  "trends": {
+    "information_banner": {
+      "message": "Trend for the latest {{N}} cases is displayed in the below figure "
+    },
+    "legend_information": {
+      "title": "Legend Info"
+    },
+    "no_trend": {
+      "message": "No trend at the moments",
+      "description": "At least 2 cases required to show the trend chart"
+    }
+  }
+}

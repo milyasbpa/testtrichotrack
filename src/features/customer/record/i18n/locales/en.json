@@ -1,0 +1,36 @@
+{
+  "scan_records": "Scan Records",
+  "diagnosis": "Diagnosis",
+  "recommendation": "Recommendation",
+  "type": {
+    "items": [
+      {
+        "id": "Global",
+        "name": "Global"
+      },
+      {
+        "id": "Routine",
+        "name": "Routine"
+      },
+      {
+        "id": "Spotlight",
+        "name": "Spotlight"
+      }
+    ]
+  },
+  "no_spotlight": {
+    "message": "No spotlight record",
+    "description": "There is no spotlight scan for this case."
+  },
+  "no_global": {
+    "message": "No global record",
+    "description": "There is no global scan for this case."
+  },
+  "actions": {
+    "compare": "Compare"
+  },
+  "comparison_alert": {
+    "message": "Select images to compare",
+    "description": "Select 2 to 4 images, then click COMPARE button."
+  }
+}

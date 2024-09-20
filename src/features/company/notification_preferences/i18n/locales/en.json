@@ -1,0 +1,89 @@
+{
+  "title": "Notification Preferences",
+  "form": {
+    "email": {
+      "label": "Email*",
+      "placeholder": "Please specify the email you prefer to receive the notifications ...",
+      "errors": {
+        "email_is_not_valid": {
+          "code": "EMAIL_IS_NOT_VALID",
+          "message": "Please type valid email"
+        },
+        "email_is_required": {
+          "code": "EMAIL_IS_REQUIRED",
+          "message": "Email is Required"
+        }
+      }
+    },
+    "phonenumber": {
+      "label": "Phone Number*",
+      "placeholder": "Type phone number here...",
+      "max_length": 16,
+      "errors": [
+        {
+          "id": "INVALID_PHONE_NUMBER",
+          "name": "Please type valid phone number!"
+        }
+      ],
+      "country_code": {
+        "title": "Search Country Code",
+        "placeholder": "Type country name here...",
+        "errors": [
+          {
+            "id": "COUNTRY_NOT_FOUND",
+            "name": "Search not found, please try again."
+          }
+        ]
+      }
+    },
+    "subscription_threshold": {
+      "label": "Subscription Threshold",
+      "unit": "Day",
+      "placeholder": "Type subscription threshold here...",
+      "helper_text": "Expecting positive integer",
+      "error": {
+        "subscription_threshold_is_not_valid": {
+          "code": "SUBSCRIPTION_THRESHOLD_IS_NOT_VALID",
+          "message": "Please type valid subscription threshold!"
+        },
+        "subscription_threshold_is_required": {
+          "code": "SUBSCRIPTION_THRESHOLD_IS_REQUIRED",
+          "message": "Subscription threshold is Required"
+        },
+        "subscription_threshold_must_positive_integer": {
+          "code": "SUBSCRIPTION_THRESHOLD_MUST_POSITIVE_INTEGER",
+          "message": "Expecting positive integer"
+        }
+      }
+    },
+    "credit_threshold": {
+      "label": "Credit Threshold",
+      "unit": "Credit",
+      "placeholder": "Type credit threshold here...",
+      "helper_text": "Expecting positive integer",
+      "error": {
+        "credit_threshold_is_not_valid": {
+          "code": "CREDIT_THRESHOLD_IS_NOT_VALID",
+          "message": "Please type valid credit threshold!"
+        },
+        "credit_threshold_is_required": {
+          "code": "CREDIT_THRESHOLD_IS_REQUIRED",
+          "message": "Credit threshold is Required"
+        },
+        "credit_threshold_must_positive_integer": {
+          "code": "CREDIT_THRESHOLD_MUST_POSITIVE_INTEGER",
+          "message": "Expecting positive integer"
+        }
+      }
+    },
+
+    "cta": {
+      "primary": {
+        "children": "Save"
+      },
+      "secondary": {
+        "children": "Back"
+      }
+    }
+  }
+}

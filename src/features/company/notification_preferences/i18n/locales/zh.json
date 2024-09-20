@@ -1,0 +1,89 @@
+{
+  "title": "通知设置",
+  "form": {
+    "email": {
+      "label": "电子邮件*",
+      "placeholder": "请输入接收通知邮件的电子邮箱地址 ...",
+      "errors": {
+        "email_is_not_valid": {
+          "code": "EMAIL_IS_NOT_VALID",
+          "message": "电子邮箱地址不合格"
+        },
+        "email_is_required": {
+          "code": "EMAIL_IS_REQUIRED",
+          "message": "必须输入电子邮箱地址"
+        }
+      }
+    },
+    "phonenumber": {
+      "label": "电话号码*",
+      "placeholder": "在此处输入电话号码...",
+      "max_length": 16,
+      "errors": [
+        {
+          "id": "INVALID_PHONE_NUMBER",
+          "name": "请输入有效的电话号码！"
+        }
+      ],
+      "country_code": {
+        "title": "搜索国家代码",
+        "placeholder": "在此输入国家名称...",
+        "errors": [
+          {
+            "id": "COUNTRY_NOT_FOUND",
+            "name": "未找到搜索内容，请重试。"
+          }
+        ]
+      }
+    },
+    "subscription_threshold": {
+      "label": "合约剩余天数",
+      "unit": "天",
+      "placeholder": "在此输入通知合约到期的剩余天数 ...",
+      "helper_text": "大于 0 的整数",
+      "error": {
+        "subscription_threshold_is_not_valid": {
+          "code": "SUBSCRIPTION_THRESHOLD_IS_NOT_VALID",
+          "message": "输入正确的合约剩余天数！"
+        },
+        "subscription_threshold_is_required": {
+          "code": "SUBSCRIPTION_THRESHOLD_IS_REQUIRED",
+          "message": "必须输入通知合约到期的剩余天数。"
+        },
+        "subscription_threshold_must_positive_integer": {
+          "code": "SUBSCRIPTION_THRESHOLD_MUST_POSITIVE_INTEGER",
+          "message": "大于 0 的整数"
+        }
+      }
+    },
+    "credit_threshold": {
+      "label": "信用点数余额",
+      "unit": "点",
+      "placeholder": "在此输入通知信用点数即将用完的余额...",
+      "helper_text": "大于 0 的整数",
+      "error": {
+        "credit_threshold_is_not_valid": {
+          "code": "CREDIT_THRESHOLD_IS_NOT_VALID",
+          "message": "输入正确的信用点数余额！"
+        },
+        "credit_threshold_is_required": {
+          "code": "CREDIT_THRESHOLD_IS_REQUIRED",
+          "message": "必须输入通知信用点数即将用完的余额。"
+        },
+        "credit_threshold_must_positive_integer": {
+          "code": "CREDIT_THRESHOLD_MUST_POSITIVE_INTEGER",
+          "message": "大于 0 的整数"
+        }
+      }
+    },
+
+    "cta": {
+      "primary": {
+        "children": "保存"
+      },
+      "secondary": {
+        "children": "返回"
+      }
+    }
+  }
+}

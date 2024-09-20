@@ -1,0 +1,8 @@
+{
+  "retake": {
+    "microscope": "Microscope",
+    "actions": {
+      "secondary": "Cancel"
+    }
+  }
+}

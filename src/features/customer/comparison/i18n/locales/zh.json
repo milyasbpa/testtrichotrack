@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "图片比较",
+    "options": {
+      "items": [
+        {
+          "id": "image",
+          "name": "Image"
+        }
+      ]
+    }
+  },
+  "coming_soon": {
+    "image_url": "/illustrations/no-global-screening.illustration.svg",
+    "message": "即将推出：利用我们的最新创新技术提升您的体验！"
+  },
+  "actions": {
+    "exit_comparison": "退出比较"
+  }
+}

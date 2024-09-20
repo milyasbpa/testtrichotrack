@@ -1,0 +1,12 @@
+{
+  "preview": {
+    "actions": {
+      "primary": "Next"
+    },
+    "card": {
+      "actions": {
+        "primary": "Retake"
+      }
+    }
+  }
+}

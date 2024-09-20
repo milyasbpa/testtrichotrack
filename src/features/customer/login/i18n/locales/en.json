@@ -1,0 +1,63 @@
+{
+  "form": {
+    "name": "Customer Login",
+    "description": "Please enter your account",
+
+    "login": "LOGIN",
+    "phonenumber": {
+      "label": "Phone Number*",
+      "placeholder": "Type phone number here...",
+      "max_length": 16,
+      "errors": [
+        {
+          "id": "INVALID_PHONE_NUMBER",
+          "name": "Please type valid phone number!"
+        }
+      ],
+      "country_code": {
+        "title": "Search Country Code",
+        "placeholder": "Type country name here...",
+        "errors": [
+          {
+            "id": "COUNTRY_NOT_FOUND",
+            "name": "Search not found, please try again."
+          }
+        ]
+      }
+    },
+    "error_password": {
+      "message": "You entered unregistered or incorrect phone number.",
+      "description": "Please check and enter your registered phone number."
+    },
+    "error_invalid_phone_number": {
+      "message": "You entered an invalid phone number",
+      "description": "Please check and enter your registered phone number."
+    },
+    "error_unregister_phone_number": {
+      "message": "You entered an unregistered phone number",
+      "description": "Please check and enter your registered phone number."
+    },
+    "error_account_has_been_deleted": {
+      "message": "Customer has deleted this account",
+      "description": "Please register an account with a new mobile number."
+    },
+    "error_too_frequent_otp_request": {
+      "message": "Too frequent OTP request",
+      "description": "Please wait a minute to login again."
+    },
+    "error_internal_server_error": {
+      "message": "Failed to send OTP due to busy network",
+      "description": "Please wait a while and try again."
+    },
+    "error_wrong_otp": {
+      "message": "You entered the wrong OTP code",
+      "description": "Please check again and try to enter again."
+    },
+    "otp_bottom_sheet": {
+      "message": "OTP has been sent",
+      "description": "Please key in the 6-digit OTP that we sent via SMS to this phone number.",
+      "error_message": "Didn't receive it? Request new OTP code.",
+      "send_otp": "Send OTP"
+    }
+  }
+}

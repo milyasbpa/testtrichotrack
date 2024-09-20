@@ -1,0 +1,13 @@
+{
+  "step_tab": {
+    "step": "步骤"
+  },
+  "schedule_card": {
+    "rating": "评分",
+    "title": "建议时长",
+    "template": "您的{{category}}得分是{{rating}}，表明{{X}}。因此，我们推荐您接受{{times}}的{{treatment}}。",
+    "latest_template": "您最近一次的{{category}}得分是{{rating}}，表明{{X}}。因此，我们推荐您接受{{times}}的{{treatment}}。",
+    "good_indicator_template": "您的{{target}}处于{{level}}水平",
+    "bad_indicator_template": "您患有{{level}}的{{issue}}问题"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "product_card": {
+    "title": "Products"
+  },
+  "major_ingredient_card": {
+    "title": "Major Ingredients",
+    "effects": "Effects"
+  },
+  "instruction_for_use_card": {
+    "title": "Instructions for use",
+    "step": "Step"
+  }
+}

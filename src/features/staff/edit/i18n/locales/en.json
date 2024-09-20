@@ -1,0 +1,101 @@
+{
+  "confirmation": {
+    "message": "Are you sure to edit the information?",
+    "description": "Please ensure the particulars are correct before submission.",
+    "image_url": "/illustrations/delete-staff.illustration.svg",
+    "cta": {
+      "primary": {
+        "children": "Submit"
+      },
+      "secondary": {
+        "children": "Check Again"
+      }
+    }
+  },
+  "crop_profile_photo_modal": {
+    "message": "Crop Your Photo",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "header": {
+    "title": "Edit Staff"
+  },
+  "relogin_dialog": {
+    "message": "The phone number and/or password is changed.",
+    "description": "Need to log in again with the updated phone number and password.",
+    "ok": "OK"
+  },
+  "staff_name_input": {
+    "label": "Name*",
+    "placeholder": "Type name here...",
+    "error_message": "Please enter valid full name!"
+  },
+  "staff_outlet_input": {
+    "label": "Outlet*",
+    "placeholder": "Type outlet here...",
+    "not_found": "Nothing Found"
+  },
+  "staff_password_input": {
+    "placeholder": "Only edit here when you want to update your password",
+    "label": "Password*"
+  },
+  "staff_permission_input": {
+    "label": "Permission*",
+    "manager": "Manager",
+    "employee": "Employee"
+  },
+  "staff_position_input": {
+    "label": "Position",
+    "placeholder": "Type position here...",
+    "empty_placeholder": "N.A",
+    "start_helper_text": "Optional"
+  },
+  "phonenumber": {
+    "label": "Phone Number*",
+    "placeholder": "Type phone number here...",
+    "max_length": 16,
+    "errors": [
+      {
+        "id": "INVALID_PHONE_NUMBER",
+        "name": "Please type valid phone number!"
+      }
+    ],
+    "country_code": {
+      "title": "Search Country Code",
+      "placeholder": "Type country name here...",
+      "errors": [
+        {
+          "id": "COUNTRY_NOT_FOUND",
+          "name": "Search not found, please try again."
+        }
+      ]
+    }
+  },
+
+  "staff_country_code": {
+    "title": "Search Country Code",
+    "placeholder": "Type country name here...",
+    "error_not_found": "Search not found, please try again."
+  },
+  "upload_staff_photo": {
+    "label": "Profile Photo",
+    "browse": "Browse",
+    "optional": "Optional"
+  },
+  "actions": {
+    "back": "Back",
+    "submit": "Submit"
+  },
+  "update_success": {
+    "message": "Staff successfully edited!",
+    "description": "Check staff list to view"
+  },
+  "error_duplicated_phone_number": {
+    "message": "Phone number is already registered",
+    "description": "Please type another phone number"
+  },
+  "error_invalid_phone_number": {
+    "message": "Invalid phone number",
+    "description": "Please type valid phone number"
+  }
+}

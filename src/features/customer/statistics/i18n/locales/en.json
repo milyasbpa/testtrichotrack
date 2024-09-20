@@ -1,0 +1,40 @@
+{
+  "header": {
+    "title": "Customer Statistics"
+  },
+  "age_bin_plot": {
+    "title": "Age Bin Plot"
+  },
+  "gender_card": {
+    "title": "Gender Distribution"
+  },
+  "race_card": {
+    "title": "Race Distribution"
+  },
+  "age_distribution_card": {
+    "title": "Age Distribution"
+  },
+  "start_age_filter": {
+    "label": "Start Age"
+  },
+  "end_age_filter": {
+    "label": "End Age"
+  },
+  "age_resolution_filter": {
+    "label": "Resolution"
+  },
+  "gender_filter": {
+    "label": "Gender"
+  },
+  "empty_bar_chart": {
+    "message": "The bin plot appears empty",
+    "description": "Indicating that there are no data points to be represented."
+  },
+  "empty_pie_chart": {
+    "message": "The pie chart appears empty",
+    "description": "Indicating that there are no data points to be represented."
+  },
+  "actions": {
+    "back": "Back"
+  }
+}

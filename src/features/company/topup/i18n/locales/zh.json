@@ -1,0 +1,29 @@
+{
+  "title": "续费续约",
+  "tiers": {
+    "duration": {
+      "singular": "{{day}}天",
+      "plural": "{{day}}天"
+    },
+    "price": {
+      "singular": "{{price}} {{currency}}",
+      "range": "{{minPrice}} {{currency}} - {{maxPrice}} {{currency}}"
+    },
+    "outlet": "分店上限：{{number}}",
+    "staff": "员工上限：{{number}}",
+    "customer": "客户上限：{{number}}",
+    "cta": {
+      "subscribe": {
+        "children": "选择"
+      },
+      "your_current_plan": {
+        "children": "当前的费用计划"
+      }
+    }
+  },
+  "cta": {
+    "primary": {
+      "children": "返回"
+    }
+  }
+}

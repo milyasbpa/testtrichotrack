@@ -1,0 +1,8 @@
+{
+  "error": {
+    "description": "请尝试重新开始一次新的扫描。",
+    "actions": {
+      "primary": "重新开始"
+    }
+  }
+}

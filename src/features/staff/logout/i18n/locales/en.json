@@ -1,0 +1,10 @@
+{
+  "confirmation": {
+    "message": "Are you sure to logout?",
+    "description": "You will be logged out.",
+    "image_url": "/illustrations/confirmation.illustration.svg",
+    "image_alt": "staff_logout",
+    "yes": "YES",
+    "no": "NO"
+  }
+}

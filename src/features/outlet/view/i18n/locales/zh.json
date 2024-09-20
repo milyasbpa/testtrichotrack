@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "所属分店"
+  },
+  "photo": {
+    "title": "分店照片"
+  },
+  "outlet_address_input": {
+    "label": "分店地址",
+    "placeholder": "在此处输入分店地址..."
+  },
+  "outlet_name_input": {
+    "label": "分店名字",
+    "placeholder": "在此处输入分店名字...",
+    "error_message": "请输入合格正确的名字！"
+  },
+
+  "upload_outlet_photo": {
+    "label": "分店照片",
+    "browse": "选择照片",
+    "optional": "可选"
+  },
+  "phonenumber": {
+    "label": "电话号码",
+    "placeholder": "在此处输入电话号码...",
+    "max_length": 16,
+    "errors": [
+      {
+        "id": "INVALID_PHONE_NUMBER",
+        "name": "请输入有效的电话号码！"
+      }
+    ],
+    "country_code": {
+      "title": "搜索国家代码",
+      "placeholder": "在此输入国家名称...",
+      "errors": [
+        {
+          "id": "COUNTRY_NOT_FOUND",
+          "name": "未找到搜索内容，请重试。"
+        }
+      ]
+    }
+  }
+}

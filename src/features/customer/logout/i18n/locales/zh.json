@@ -1,0 +1,10 @@
+{
+  "confirmation": {
+    "message": "您确定要退出吗？",
+    "description": "您这次的登录将会被注销。",
+    "image_url": "/illustrations/confirmation.illustration.svg",
+    "image_alt": "staff_logout",
+    "yes": "是",
+    "no": "否"
+  }
+}

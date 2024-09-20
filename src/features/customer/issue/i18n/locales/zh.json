@@ -1,0 +1,55 @@
+{
+  "overview": {
+    "title": "Overview"
+  },
+  "rating": {
+    "title": "Understand Your Rating",
+    "factor": {
+      "items": [
+        {
+          "id": "overall",
+          "name": "整体 Rating"
+        }
+      ]
+    },
+    "evidence": {
+      "title": "{{factor}} Scan Evidence",
+      "factor": {
+        "label": "{{factor}} 评分"
+      }
+    }
+  },
+  "description": {
+    "title": "关于",
+    "read_less": "收起",
+    "read_more": "展开"
+  },
+  "level_info": {
+    "example": {
+      "label": "Examples"
+    }
+  },
+  "category_description_card": {
+    "template": "{{category}}评分是关于您{{target}}的综合评估。 您的{{category}}得分是{{rating}}，表明{{x}}。",
+    "good_indicator_template": "您的{{target}}处于{{level}}水平",
+    "bad_indicator_template": "您患有{{level}}的{{issue}}问题"
+  },
+
+  "rating_card": {
+    "rating": "评分",
+    "overall": "整体",
+    "description": "描述",
+    "exemplar": "样例",
+    "scan_evidence": "症状图片"
+  },
+  "recommendation_card": {
+    "stage": "阶段",
+    "treatment_types": {
+      "home_cares": "在家护理",
+      "care_plans": "到店护理"
+    },
+    "image_url": "/illustrations/healthy-condition.illustration.svg",
+    "message": "为了有效解决<span style='padding:0.25rem 0.5rem; background-color:#1b1b1b; border-radius:4px; font-size:1rem; font-weight:700; color: rgba(255, 255, 255,0.8);'>{{issue}}</span>问题，我们强烈推荐以下配方和技术已经获得验证的护理配套：",
+    "no_recommendation": "您的状态良好，请继续保持！"
+  }
+}

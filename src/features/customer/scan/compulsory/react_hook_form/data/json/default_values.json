@@ -1,0 +1,37 @@
+{
+  "image": "",
+  "counter_modal": {
+    "is_open": false
+  },
+  "active_region": 0,
+  "data": [
+    {
+      "order": 3,
+      "id": 4,
+      "icon": "/icons/face_area/face-area-4.icon.svg",
+      "image": "",
+      "region": "Middle Crown"
+    },
+    {
+      "order": 4,
+      "id": 3,
+      "icon": "/icons/face_area/face-area-3.icon.svg",
+      "image": "",
+      "region": "Left Parietal"
+    },
+    {
+      "order": 5,
+      "id": 2,
+      "icon": "/icons/face_area/face-area-2.icon.svg",
+      "image": "",
+      "region": "Right Parietal"
+    },
+    {
+      "order": 6,
+      "id": 1,
+      "icon": "/icons/face_area/face-area-1.icon.svg",
+      "image": "",
+      "region": "Middle Frontal"
+    }
+  ]
+}

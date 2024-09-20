@@ -1,0 +1,9 @@
+{
+  "message": "We will require a few photos of your scalp",
+  "image_url": "/illustrations/scalp-scan.illustration.svg",
+  "description": "In order to analyse your scalp and assess which treatments are suitable for you, we will take some photos of your scalp.",
+  "actions": {
+    "secondary": "Back",
+    "primary": "Next"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "confirmation": {
+    "message": "Spotlight picture has been saved. Do you want to spotlight any other region?",
+    "actions": {
+      "primary": "Yes",
+      "secondary": "No"
+    },
+    "fun_fact": {
+      "message": "Please Wait",
+      "description": "Analyzing Scan",
+      "item": {
+        "title": "Fun Facts"
+      }
+    }
+  }
+}

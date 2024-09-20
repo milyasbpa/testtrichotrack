@@ -1,0 +1,12 @@
+{
+  "preview": {
+    "actions": {
+      "primary": "继续"
+    },
+    "card": {
+      "actions": {
+        "primary": "重新扫描"
+      }
+    }
+  }
+}

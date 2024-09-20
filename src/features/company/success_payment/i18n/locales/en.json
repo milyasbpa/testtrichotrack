@@ -1,0 +1,9 @@
+{
+  "src": "/illustrations/success-payment.illustration.svg",
+  "message": "Payment successful! Thank you for choosing our service. You can download your receipt from the Payment History section.",
+  "cta": {
+    "primary": {
+      "children": "OK"
+    }
+  }
+}

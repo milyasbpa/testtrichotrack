@@ -1,0 +1,15 @@
+{
+  "limit": {
+    "message": "The maximum number of scans has been reached. Proceed to scalp analysis.",
+    "actions": {
+      "primary": "Yes"
+    },
+    "fun_fact": {
+      "message": "Please Wait",
+      "description": "Analyzing Scan",
+      "item": {
+        "title": "Fun Facts"
+      }
+    }
+  }
+}

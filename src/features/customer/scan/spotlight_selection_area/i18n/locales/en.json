@@ -1,0 +1,36 @@
+{
+  "message": "The spotlight picture has been taken, please select the scalp area",
+  "no_area_selected": "No scalp area is selected yet ...",
+  "actions": {
+    "secondary": "Retake",
+    "primary": "Save"
+  },
+  "area": {
+    "items": [
+      {
+        "id": 16,
+        "layer": 1,
+        "position": {
+          "top": 20,
+          "left": 38
+        }
+      },
+      {
+        "id": 15,
+        "layer": 2,
+        "position": {
+          "top": 78,
+          "left": 28
+        }
+      },
+      {
+        "id": 15,
+        "layer": 2,
+        "position": {
+          "top": 78,
+          "left": 28
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "header": {
+    "title": "编辑公司标志"
+  },
+
+  "logo_uploader": {
+    "requirement": {
+      "message": "上传图片前请确认：",
+      "list": {
+        "1": "文件必须是 .PNG 格式",
+        "2": "文件必须小于 2MB",
+        "3": "图片的纵横（高宽）比必须介于1：5到1：1之间"
+      }
+    }
+  },
+  "success_dialog": {
+    "message": "新的公司标志已经成功保存",
+    "image_url": "/illustrations/success-update-company-logo.illustration.svg",
+    "description": "您的公司标志将被更新。",
+    "close": "关闭"
+  },
+  "actions": {
+    "back": "返回",
+    "save": "保存",
+    "browse_image": "浏览图片"
+  }
+}

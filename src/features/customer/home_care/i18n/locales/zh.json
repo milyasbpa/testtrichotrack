@@ -1,0 +1,13 @@
+{
+  "product_card": {
+    "title": "产品"
+  },
+  "major_ingredient_card": {
+    "title": "主要成分",
+    "effects": "效果"
+  },
+  "instruction_for_use_card": {
+    "title": "使用说明",
+    "step": "步骤"
+  }
+}

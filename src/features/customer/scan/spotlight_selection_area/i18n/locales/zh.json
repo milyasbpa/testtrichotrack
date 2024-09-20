@@ -1,0 +1,8 @@
+{
+  "message": "扫描图片已保存。请选择关注区域在头皮的位置。",
+  "no_area_selected": "还未选择关注区域在头皮的位置 ...",
+  "actions": {
+    "secondary": "重新扫描",
+    "primary": "保存"
+  }
+}

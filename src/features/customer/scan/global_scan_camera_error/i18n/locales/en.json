@@ -1,0 +1,8 @@
+{
+  "message": "Sorry, something went wrong.",
+  "description": "Please check and ensure the Logitech StreamCam connected well.",
+  "image_url": "/illustrations/scan-error.illustration.svg",
+  "actions": {
+    "primary": "Try Again"
+  }
+}

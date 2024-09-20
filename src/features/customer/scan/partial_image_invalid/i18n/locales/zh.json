@@ -1,0 +1,20 @@
+{
+  "error": {
+    "message": "请重新扫描",
+    "actions": {
+      "primary": "继续"
+    },
+    "card": {
+      "actions": {
+        "primary": "重新扫描"
+      }
+    },
+    "fun_fact": {
+      "message": "请稍候",
+      "description": "正在进行分析中 ...",
+      "item": {
+        "title": "趣味小知识"
+      }
+    }
+  }
+}

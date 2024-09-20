@@ -1,0 +1,18 @@
+{
+  "scan": {
+    "microscope": "Microscope",
+    "actions": {
+      "secondary": "Cancel"
+    },
+    "counter_modal": {
+      "message": "Photo has been taken",
+      "description": "Proceeding to the next step."
+    }
+  },
+  "preview": {
+    "actions": {
+      "primary": "Next",
+      "secondary": "Retake"
+    }
+  }
+}

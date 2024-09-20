@@ -1,0 +1,29 @@
+{
+  "title": "Top-Up",
+  "tiers": {
+    "duration": {
+      "singular": "{{day}} Day",
+      "plural": "{{day}} Days"
+    },
+    "price": {
+      "singular": "{{price}} {{currency}}",
+      "range": "{{minPrice}} {{currency}} - {{maxPrice}} {{currency}}"
+    },
+    "outlet": "Maximum {{number}} Outlets",
+    "staff": "Maximum {{number}} Staffs",
+    "customer": "Maximum {{number}} Customers",
+    "cta": {
+      "subscribe": {
+        "children": "Choose"
+      },
+      "your_current_plan": {
+        "children": "Your Current Plan"
+      }
+    }
+  },
+  "cta": {
+    "primary": {
+      "children": "Back"
+    }
+  }
+}

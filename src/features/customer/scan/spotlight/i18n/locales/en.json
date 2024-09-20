@@ -1,0 +1,8 @@
+{
+  "scan": {
+    "microscope": "Microscope",
+    "actions": {
+      "secondary": "Cancel"
+    }
+  }
+}

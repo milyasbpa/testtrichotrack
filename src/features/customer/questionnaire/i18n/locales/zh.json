@@ -1,0 +1,32 @@
+{
+  "edit_questionnaire": {
+    "title": "调查问卷",
+    "navigation": {
+      "message": "第{{startQuestionIndex}}个到第{{endQuestionIndex}}个问题，共{{totalQuestion}}个问题。",
+      "description": "点击向下箭头继续下一组问题。"
+    },
+    "single_question": {
+      "others_placeholder": "在此处输入您的详细信息..."
+    },
+    "multiple_question": {
+      "others_placeholder": "在此处输入您的详细信息..."
+    },
+    "open_question": {
+      "placeholder": "在这里输入您的答案..."
+    },
+    "actions": {
+      "back": "返回",
+      "next": "继续"
+    }
+  },
+
+  "edit_confirmation": {
+    "message": "确定要更新这些资料吗？",
+    "description": "请在提交之前确认资料正确。",
+    "image_url": "/illustrations/edit-confirmation.illustration.svg",
+    "actions": {
+      "check_again": "重新检查",
+      "save": "保存"
+    }
+  }
+}
