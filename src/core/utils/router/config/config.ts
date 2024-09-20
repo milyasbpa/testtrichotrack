@@ -58,6 +58,12 @@ interface RouteConfig {
 export const routes: RouteConfig[] = [
   // company
   {
+    path: "/",
+    component: CompanySecretPage,
+    isPrivate: false,
+    restricted: true,
+  },
+  {
     path: "/:locale/",
     component: CompanySecretPage,
     isPrivate: false,
